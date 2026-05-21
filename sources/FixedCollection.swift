@@ -4,7 +4,7 @@
 
 
 nonisolated
-public struct IndexedCollection: Collection {
+public struct FixedCollection: Collection {
 
     public typealias Index = Int
     let fixed: [String] = ["one", "two", "three"]
@@ -23,7 +23,7 @@ public struct IndexedCollection: Collection {
 }
 
 
-extension IndexedCollection: BidirectionalCollection {
+extension FixedCollection: BidirectionalCollection {
 
     public func index(before i: Index) -> Index {
         fixed.index(before: i)
