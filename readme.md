@@ -7,9 +7,11 @@ when a packaged type (in this repository, `FixedCollection`) implements a founda
 members (`BidirectionalCollection/finalIndex`).
 
 In this situation, the produced Docc documentation for `FixedCollection` will contain two links to
-the `BidirectionalCollection`, and the content of both those links changes randomly when building
-between the package extension members (`finalIndex`), and the original `BidirectionalCollection`
-members.
+`BidirectionalCollection` implementations, and the content of both those links changes randomly when
+building:
++ Either it contains the package extension members (`finalIndex`)
++ Or it contains the original `BidirectionalCollection` members.
+
 
 
 How to reproduce
@@ -33,7 +35,8 @@ prettify all json files to minimize the amount of changes:
 ./scripts/generate-static-docs
 ```
 
-> Note: Since this the issue happens randomly, but frequently, you may need to run this command a couple of times.
+> Note: Since this issue happens randomly, but frequently, the command may need to run a couple of 
+> times.
 
 Notice that some files changed upon rebuild:
 + Notice `bidirectionalcollection-implementations.json` and `index.json` have changed content.
@@ -46,3 +49,44 @@ Notice that some files changed upon rebuild:
 
 Upon rebuilding documentation with `generate-static-docs`, the content will randomly change between
 the committed state (no changes), or the original `BidirectionalCollection` members state.
+
+
+
+Other Observations
+------------------
+
+### Removing extensions
+
+If the extension to `BidirectionalCollection` is removed from the code, the issue stops happening:
++ `FixedCollection` page will contain a single link to `BidirectionalCollection` that always points
+  to the same content.
+
+If the `--exclude-extended-types` option is used, the generated site seems to stabilize (it does not
+change without code changes), since the documentation for the `BidirectionalCollection` is now not
+included.
+
+
+
+### Using `generate-documentation` directly
+
+This issue is also reproducible by running directly `generate-documentation`:
+```zsh
+swift package --allow-writing-to-directory ./docs \
+    generate-documentation --target "DoccExtensionsIssue" \
+    --disable-indexing \
+    --transform-for-static-hosting \
+    --hosting-base-path "/docs" \
+    --output-path ./docs
+```
+
+However this will modify a lot of files, making the change hard to discern. The behavior of 
+`BidirectionalCollection` flipping between two states still remains.
+
+
+
+### Building documentation in Xcode
+
+Part of this issue can be also seen when running `Build Documentation` in Xcode:
++ The `FixedCollection` will contain two links to `BidirectionalCollection Implementations` both
+  pointing to the same content.
++ The links seems to consistently always contain the original `BidirectionalCollection` members.
