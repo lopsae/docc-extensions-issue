@@ -2,7 +2,7 @@ Docc-Extensions-Issue
 =====================
 
 This repository is an example of an issue found with `docc` and `swift-docc-plugin` that occurs
-when a packaged type (in this repository, `FixedCollection`) implements a foundational type 
+when a packaged type (in this repository, `FixedCollection`) implements a standard library protocol 
 (`BidirectionalCollection`), and the package also offers an extension to the same type with public 
 members (`BidirectionalCollection/finalIndex`).
 
