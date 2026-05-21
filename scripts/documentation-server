@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+echo "Running at http://localhost:8000/docs/documentation/doccissue/"
+python3 -m http.server
