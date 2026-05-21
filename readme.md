@@ -52,6 +52,16 @@ the committed state (no changes), or the original `BidirectionalCollection` memb
 
 
 
+Workaround
+----------
+
+Using the `--experimental-skip-synthesized-symbols` flag for `generate-documentation` partially
+solves the issue since the original `BidirectionalCollection` members are not included. The single 
+`BidirectionalCollection Implementations` link in `FixedCollection` now always contains the package
+members.
+
+
+
 Other Observations
 ------------------
 
@@ -61,9 +71,9 @@ If the extension to `BidirectionalCollection` is removed from the code, the issu
 + `FixedCollection` page will contain a single link to `BidirectionalCollection` that always points
   to the same content.
 
-If the `--exclude-extended-types` option is used, the generated site seems to stabilize (it does not
-change without code changes), since the documentation for the `BidirectionalCollection` is now not
-included.
+If the `--exclude-extended-types` flag for `generate-documentation` is used, the generated site
+seems to stabilize (it does not change without code changes), since the documentation for the
+`BidirectionalCollection` is not included.
 
 
 
