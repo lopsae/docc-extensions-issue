@@ -5,7 +5,7 @@
       "type": "text"
     },
     {
-      "code": "Collection.distance(from:to:)",
+      "code": "RandomAccessCollection.distance(from:to:)",
       "type": "codeVoice"
     },
     {
@@ -27,8 +27,72 @@
   },
   "kind": "symbol",
   "metadata": {
+    "conformance": {
+      "availabilityPrefix": [
+        {
+          "text": "Available when",
+          "type": "text"
+        }
+      ],
+      "conformancePrefix": [
+        {
+          "text": "Conforms when",
+          "type": "text"
+        }
+      ],
+      "constraints": [
+        {
+          "code": "Index",
+          "type": "codeVoice"
+        },
+        {
+          "text": " conforms to ",
+          "type": "text"
+        },
+        {
+          "code": "Strideable",
+          "type": "codeVoice"
+        },
+        {
+          "text": ", ",
+          "type": "text"
+        },
+        {
+          "code": "Indices",
+          "type": "codeVoice"
+        },
+        {
+          "text": " is ",
+          "type": "text"
+        },
+        {
+          "code": "Range<Self.Index>",
+          "type": "codeVoice"
+        },
+        {
+          "text": ", and ",
+          "type": "text"
+        },
+        {
+          "code": "Index.Stride",
+          "type": "codeVoice"
+        },
+        {
+          "text": " is ",
+          "type": "text"
+        },
+        {
+          "code": "Int",
+          "type": "codeVoice"
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
     "extendedModule": "Swift",
-    "externalID": "s:SlsE8distance4from2toSi5IndexQz_AEtF::SYNTHESIZED::s:9DoccIssue17IndexedCollectionV",
+    "externalID": "s:SksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE8distance4from2toSiAB_ABtF::SYNTHESIZED::s:9DoccIssue17IndexedCollectionV",
     "fragments": [
       {
         "kind": "keyword",
@@ -98,8 +162,25 @@
       },
       {
         "kind": "typeIdentifier",
-        "preciseIdentifier": "s:Si",
-        "text": "Int"
+        "text": "Self"
+      },
+      {
+        "kind": "text",
+        "text": "."
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:Sl5IndexQa",
+        "text": "Index"
+      },
+      {
+        "kind": "text",
+        "text": "."
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:Sx6StrideQa",
+        "text": "Stride"
       }
     ],
     "modules": [
@@ -210,8 +291,25 @@
             },
             {
               "kind": "typeIdentifier",
-              "preciseIdentifier": "s:Si",
-              "text": "Int"
+              "text": "Self"
+            },
+            {
+              "kind": "text",
+              "text": "."
+            },
+            {
+              "kind": "typeIdentifier",
+              "preciseIdentifier": "s:Sl5IndexQa",
+              "text": "Index"
+            },
+            {
+              "kind": "text",
+              "text": "."
+            },
+            {
+              "kind": "typeIdentifier",
+              "preciseIdentifier": "s:Sx6StrideQa",
+              "text": "Stride"
             }
           ]
         }
@@ -235,12 +333,7 @@
       "url": "/documentation/doccissue"
     },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection": {
-      "abstract": [
-        {
-          "text": "A collection view that pairs each index and element of an underlying collection.",
-          "type": "text"
-        }
-      ],
+      "abstract": [],
       "fragments": [
         {
           "kind": "keyword",
@@ -270,6 +363,70 @@
     },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/distance(from:to:)": {
       "abstract": [],
+      "conformance": {
+        "availabilityPrefix": [
+          {
+            "text": "Available when",
+            "type": "text"
+          }
+        ],
+        "conformancePrefix": [
+          {
+            "text": "Conforms when",
+            "type": "text"
+          }
+        ],
+        "constraints": [
+          {
+            "code": "Index",
+            "type": "codeVoice"
+          },
+          {
+            "text": " conforms to ",
+            "type": "text"
+          },
+          {
+            "code": "Strideable",
+            "type": "codeVoice"
+          },
+          {
+            "text": ", ",
+            "type": "text"
+          },
+          {
+            "code": "Indices",
+            "type": "codeVoice"
+          },
+          {
+            "text": " is ",
+            "type": "text"
+          },
+          {
+            "code": "Range<Self.Index>",
+            "type": "codeVoice"
+          },
+          {
+            "text": ", and ",
+            "type": "text"
+          },
+          {
+            "code": "Index.Stride",
+            "type": "codeVoice"
+          },
+          {
+            "text": " is ",
+            "type": "text"
+          },
+          {
+            "code": "Int",
+            "type": "codeVoice"
+          },
+          {
+            "text": ".",
+            "type": "text"
+          }
+        ]
+      },
       "fragments": [
         {
           "kind": "keyword",
@@ -339,8 +496,25 @@
         },
         {
           "kind": "typeIdentifier",
-          "preciseIdentifier": "s:Si",
-          "text": "Int"
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sl5IndexQa",
+          "text": "Index"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sx6StrideQa",
+          "text": "Stride"
         }
       ],
       "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/distance(from:to:)",

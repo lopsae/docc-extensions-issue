@@ -257,12 +257,7 @@
       "url": "/documentation/doccissue"
     },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection": {
-      "abstract": [
-        {
-          "text": "A collection view that pairs each index and element of an underlying collection.",
-          "type": "text"
-        }
-      ],
+      "abstract": [],
       "fragments": [
         {
           "kind": "keyword",

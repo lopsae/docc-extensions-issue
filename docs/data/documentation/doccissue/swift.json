@@ -76,36 +76,6 @@
       "title": "BidirectionalCollection",
       "type": "topic",
       "url": "/documentation/doccissue/swift/bidirectionalcollection"
-    },
-    "doc://DoccIssue/documentation/DoccIssue/Swift/Collection": {
-      "abstract": [],
-      "fragments": [
-        {
-          "kind": "keyword",
-          "text": "extension"
-        },
-        {
-          "kind": "text",
-          "text": " "
-        },
-        {
-          "kind": "identifier",
-          "preciseIdentifier": "s:Sl",
-          "text": "Collection"
-        }
-      ],
-      "identifier": "doc://DoccIssue/documentation/DoccIssue/Swift/Collection",
-      "kind": "symbol",
-      "navigatorTitle": [
-        {
-          "kind": "identifier",
-          "text": "Collection"
-        }
-      ],
-      "role": "symbol",
-      "title": "Collection",
-      "type": "topic",
-      "url": "/documentation/doccissue/swift/collection"
     }
   },
   "schemaVersion": {
@@ -119,8 +89,7 @@
       "anchor": "Extended-Protocols",
       "generated": true,
       "identifiers": [
-        "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection",
-        "doc://DoccIssue/documentation/DoccIssue/Swift/Collection"
+        "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection"
       ],
       "title": "Extended Protocols"
     }

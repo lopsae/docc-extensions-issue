@@ -5,7 +5,7 @@
       "type": "text"
     },
     {
-      "code": "Collection.index(_:offsetBy:limitedBy:)",
+      "code": "RandomAccessCollection.index(_:offsetBy:limitedBy:)",
       "type": "codeVoice"
     },
     {
@@ -28,7 +28,7 @@
   "kind": "symbol",
   "metadata": {
     "extendedModule": "Swift",
-    "externalID": "s:SlsE5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtF::SYNTHESIZED::s:9DoccIssue17IndexedCollectionV",
+    "externalID": "s:SksE5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtF::SYNTHESIZED::s:9DoccIssue17IndexedCollectionV",
     "fragments": [
       {
         "kind": "keyword",
@@ -293,12 +293,7 @@
       "url": "/documentation/doccissue"
     },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection": {
-      "abstract": [
-        {
-          "text": "A collection view that pairs each index and element of an underlying collection.",
-          "type": "text"
-        }
-      ],
+      "abstract": [],
       "fragments": [
         {
           "kind": "keyword",

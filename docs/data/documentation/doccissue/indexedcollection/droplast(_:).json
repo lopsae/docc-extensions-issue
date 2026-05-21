@@ -5,7 +5,7 @@
       "type": "text"
     },
     {
-      "code": "Collection.dropLast(_:)",
+      "code": "BidirectionalCollection.dropLast(_:)",
       "type": "codeVoice"
     },
     {
@@ -28,7 +28,7 @@
   "kind": "symbol",
   "metadata": {
     "extendedModule": "Swift",
-    "externalID": "s:SlsE8dropLasty11SubSequenceQzSiF::SYNTHESIZED::s:9DoccIssue17IndexedCollectionV",
+    "externalID": "s:SKsE8dropLasty11SubSequenceQzSiF::SYNTHESIZED::s:9DoccIssue17IndexedCollectionV",
     "fragments": [
       {
         "kind": "keyword",
@@ -132,7 +132,7 @@
             },
             {
               "kind": "text",
-              "text": " = 1) -> "
+              "text": ") -> "
             },
             {
               "kind": "typeIdentifier",
@@ -169,12 +169,7 @@
       "url": "/documentation/doccissue"
     },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection": {
-      "abstract": [
-        {
-          "text": "A collection view that pairs each index and element of an underlying collection.",
-          "type": "text"
-        }
-      ],
+      "abstract": [],
       "fragments": [
         {
           "kind": "keyword",

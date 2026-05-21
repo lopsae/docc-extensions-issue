@@ -27,7 +27,7 @@
   },
   "kind": "symbol",
   "metadata": {
-    "externalID": "s:9DoccIssue17IndexedCollectionV8endIndex0F0Qzvp",
+    "externalID": "s:9DoccIssue17IndexedCollectionV8endIndexSivp",
     "fragments": [
       {
         "kind": "keyword",
@@ -47,7 +47,8 @@
       },
       {
         "kind": "typeIdentifier",
-        "text": "Base"
+        "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV",
+        "text": "IndexedCollection"
       },
       {
         "kind": "text",
@@ -55,7 +56,7 @@
       },
       {
         "kind": "typeIdentifier",
-        "preciseIdentifier": "s:Sl5IndexQa",
+        "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV5Indexa",
         "text": "Index"
       }
     ],
@@ -97,16 +98,19 @@
               "text": ": "
             },
             {
+              "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection",
               "kind": "typeIdentifier",
-              "text": "Base"
+              "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV",
+              "text": "IndexedCollection"
             },
             {
               "kind": "text",
               "text": "."
             },
             {
+              "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Index",
               "kind": "typeIdentifier",
-              "preciseIdentifier": "s:Sl5IndexQa",
+              "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV5Indexa",
               "text": "Index"
             },
             {
@@ -143,12 +147,7 @@
       "url": "/documentation/doccissue"
     },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection": {
-      "abstract": [
-        {
-          "text": "A collection view that pairs each index and element of an underlying collection.",
-          "type": "text"
-        }
-      ],
+      "abstract": [],
       "fragments": [
         {
           "kind": "keyword",
@@ -176,6 +175,35 @@
       "type": "topic",
       "url": "/documentation/doccissue/indexedcollection"
     },
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Index": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "typealias"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "Index"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Index",
+      "kind": "symbol",
+      "navigatorTitle": [
+        {
+          "kind": "identifier",
+          "text": "Index"
+        }
+      ],
+      "role": "symbol",
+      "title": "IndexedCollection.Index",
+      "type": "topic",
+      "url": "/documentation/doccissue/indexedcollection/index"
+    },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/endIndex": {
       "abstract": [],
       "fragments": [
@@ -197,7 +225,8 @@
         },
         {
           "kind": "typeIdentifier",
-          "text": "Base"
+          "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV",
+          "text": "IndexedCollection"
         },
         {
           "kind": "text",
@@ -205,7 +234,7 @@
         },
         {
           "kind": "typeIdentifier",
-          "preciseIdentifier": "s:Sl5IndexQa",
+          "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV5Indexa",
           "text": "Index"
         }
       ],

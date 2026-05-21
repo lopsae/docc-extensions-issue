@@ -5,7 +5,7 @@
       "type": "text"
     },
     {
-      "code": "Collection.indices",
+      "code": "RandomAccessCollection.indices",
       "type": "codeVoice"
     },
     {
@@ -42,6 +42,22 @@
       ],
       "constraints": [
         {
+          "code": "Index",
+          "type": "codeVoice"
+        },
+        {
+          "text": " conforms to ",
+          "type": "text"
+        },
+        {
+          "code": "Strideable",
+          "type": "codeVoice"
+        },
+        {
+          "text": ", ",
+          "type": "text"
+        },
+        {
           "code": "Indices",
           "type": "codeVoice"
         },
@@ -50,7 +66,23 @@
           "type": "text"
         },
         {
-          "code": "DefaultIndices<Self>",
+          "code": "Range<Self.Index>",
+          "type": "codeVoice"
+        },
+        {
+          "text": ", and ",
+          "type": "text"
+        },
+        {
+          "code": "Index.Stride",
+          "type": "codeVoice"
+        },
+        {
+          "text": " is ",
+          "type": "text"
+        },
+        {
+          "code": "Int",
           "type": "codeVoice"
         },
         {
@@ -60,7 +92,7 @@
       ]
     },
     "extendedModule": "Swift",
-    "externalID": "s:SlsSIyxG7IndicesRtzrlE7indicesAAvp::SYNTHESIZED::s:9DoccIssue17IndexedCollectionV",
+    "externalID": "s:SksSx5IndexRpzSnyABG7IndicesRtzSiAA_6StrideRTzrlE7indicesACvp::SYNTHESIZED::s:9DoccIssue17IndexedCollectionV",
     "fragments": [
       {
         "kind": "keyword",
@@ -80,8 +112,8 @@
       },
       {
         "kind": "typeIdentifier",
-        "preciseIdentifier": "s:SI",
-        "text": "DefaultIndices"
+        "preciseIdentifier": "s:Sn",
+        "text": "Range"
       },
       {
         "kind": "text",
@@ -90,6 +122,15 @@
       {
         "kind": "typeIdentifier",
         "text": "Self"
+      },
+      {
+        "kind": "text",
+        "text": "."
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:Sl5IndexQa",
+        "text": "Index"
       },
       {
         "kind": "text",
@@ -138,8 +179,8 @@
             },
             {
               "kind": "typeIdentifier",
-              "preciseIdentifier": "s:SI",
-              "text": "DefaultIndices"
+              "preciseIdentifier": "s:Sn",
+              "text": "Range"
             },
             {
               "kind": "text",
@@ -148,6 +189,15 @@
             {
               "kind": "typeIdentifier",
               "text": "Self"
+            },
+            {
+              "kind": "text",
+              "text": "."
+            },
+            {
+              "kind": "typeIdentifier",
+              "preciseIdentifier": "s:Sl5IndexQa",
+              "text": "Index"
             },
             {
               "kind": "text",
@@ -183,12 +233,7 @@
       "url": "/documentation/doccissue"
     },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection": {
-      "abstract": [
-        {
-          "text": "A collection view that pairs each index and element of an underlying collection.",
-          "type": "text"
-        }
-      ],
+      "abstract": [],
       "fragments": [
         {
           "kind": "keyword",
@@ -233,6 +278,22 @@
         ],
         "constraints": [
           {
+            "code": "Index",
+            "type": "codeVoice"
+          },
+          {
+            "text": " conforms to ",
+            "type": "text"
+          },
+          {
+            "code": "Strideable",
+            "type": "codeVoice"
+          },
+          {
+            "text": ", ",
+            "type": "text"
+          },
+          {
             "code": "Indices",
             "type": "codeVoice"
           },
@@ -241,7 +302,23 @@
             "type": "text"
           },
           {
-            "code": "DefaultIndices<Self>",
+            "code": "Range<Self.Index>",
+            "type": "codeVoice"
+          },
+          {
+            "text": ", and ",
+            "type": "text"
+          },
+          {
+            "code": "Index.Stride",
+            "type": "codeVoice"
+          },
+          {
+            "text": " is ",
+            "type": "text"
+          },
+          {
+            "code": "Int",
             "type": "codeVoice"
           },
           {
@@ -269,8 +346,8 @@
         },
         {
           "kind": "typeIdentifier",
-          "preciseIdentifier": "s:SI",
-          "text": "DefaultIndices"
+          "preciseIdentifier": "s:Sn",
+          "text": "Range"
         },
         {
           "kind": "text",
@@ -279,6 +356,15 @@
         {
           "kind": "typeIdentifier",
           "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sl5IndexQa",
+          "text": "Index"
         },
         {
           "kind": "text",

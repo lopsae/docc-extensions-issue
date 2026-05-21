@@ -1,10 +1,4 @@
 {
-  "abstract": [
-    {
-      "text": "A collection view that pairs each index and element of an underlying collection.",
-      "type": "text"
-    }
-  ],
   "hierarchy": {
     "paths": [
       [
@@ -79,80 +73,11 @@
             {
               "kind": "identifier",
               "text": "IndexedCollection"
-            },
-            {
-              "kind": "text",
-              "text": "<"
-            },
-            {
-              "kind": "genericParameter",
-              "text": "Base"
-            },
-            {
-              "kind": "text",
-              "text": "> "
-            },
-            {
-              "kind": "keyword",
-              "text": "where"
-            },
-            {
-              "kind": "text",
-              "text": " "
-            },
-            {
-              "kind": "typeIdentifier",
-              "text": "Base"
-            },
-            {
-              "kind": "text",
-              "text": " : "
-            },
-            {
-              "kind": "typeIdentifier",
-              "preciseIdentifier": "s:Sl",
-              "text": "Collection"
             }
           ]
         }
       ],
       "kind": "declarations"
-    },
-    {
-      "content": [
-        {
-          "anchor": "overview",
-          "level": 2,
-          "text": "Overview",
-          "type": "heading"
-        },
-        {
-          "inlineContent": [
-            {
-              "text": "To create an instance of ",
-              "type": "text"
-            },
-            {
-              "code": "IndexedCollection",
-              "type": "codeVoice"
-            },
-            {
-              "text": ", call ",
-              "type": "text"
-            },
-            {
-              "code": "indexed()",
-              "type": "codeVoice"
-            },
-            {
-              "text": " on a collection.",
-              "type": "text"
-            }
-          ],
-          "type": "paragraph"
-        }
-      ],
-      "kind": "content"
     }
   ],
   "references": {
@@ -191,12 +116,7 @@
       "url": "/documentation/doccissue"
     },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection": {
-      "abstract": [
-        {
-          "text": "A collection view that pairs each index and element of an underlying collection.",
-          "type": "text"
-        }
-      ],
+      "abstract": [],
       "fragments": [
         {
           "kind": "keyword",
@@ -242,7 +162,7 @@
       "type": "topic",
       "url": "/documentation/doccissue/indexedcollection/collection-implementations"
     },
-    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Element": {
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Index": {
       "abstract": [],
       "fragments": [
         {
@@ -255,21 +175,30 @@
         },
         {
           "kind": "identifier",
-          "text": "Element"
+          "text": "Index"
         }
       ],
-      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Element",
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Index",
       "kind": "symbol",
       "navigatorTitle": [
         {
           "kind": "identifier",
-          "text": "Element"
+          "text": "Index"
         }
       ],
       "role": "symbol",
-      "title": "IndexedCollection.Element",
+      "title": "IndexedCollection.Index",
       "type": "topic",
-      "url": "/documentation/doccissue/indexedcollection/element"
+      "url": "/documentation/doccissue/indexedcollection/index"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/RandomAccessCollection-Implementations": {
+      "abstract": [],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/RandomAccessCollection-Implementations",
+      "kind": "article",
+      "role": "collectionGroup",
+      "title": "RandomAccessCollection Implementations",
+      "type": "topic",
+      "url": "/documentation/doccissue/indexedcollection/randomaccesscollection-implementations"
     },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Sequence-Implementations": {
       "abstract": [],
@@ -301,7 +230,8 @@
         },
         {
           "kind": "typeIdentifier",
-          "text": "Base"
+          "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV",
+          "text": "IndexedCollection"
         },
         {
           "kind": "text",
@@ -309,7 +239,7 @@
         },
         {
           "kind": "typeIdentifier",
-          "preciseIdentifier": "s:Sl5IndexQa",
+          "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV5Indexa",
           "text": "Index"
         }
       ],
@@ -349,7 +279,8 @@
         },
         {
           "kind": "typeIdentifier",
-          "text": "Base"
+          "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV",
+          "text": "IndexedCollection"
         },
         {
           "kind": "text",
@@ -357,7 +288,7 @@
         },
         {
           "kind": "typeIdentifier",
-          "preciseIdentifier": "s:Sl5IndexQa",
+          "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV5Indexa",
           "text": "Index"
         },
         {
@@ -366,7 +297,8 @@
         },
         {
           "kind": "typeIdentifier",
-          "text": "Base"
+          "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV",
+          "text": "IndexedCollection"
         },
         {
           "kind": "text",
@@ -374,7 +306,7 @@
         },
         {
           "kind": "typeIdentifier",
-          "preciseIdentifier": "s:Sl5IndexQa",
+          "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV5Indexa",
           "text": "Index"
         }
       ],
@@ -406,7 +338,8 @@
         },
         {
           "kind": "typeIdentifier",
-          "text": "Base"
+          "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV",
+          "text": "IndexedCollection"
         },
         {
           "kind": "text",
@@ -414,7 +347,7 @@
         },
         {
           "kind": "typeIdentifier",
-          "preciseIdentifier": "s:Sl5IndexQa",
+          "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV5Indexa",
           "text": "Index"
         }
       ],
@@ -438,7 +371,8 @@
         },
         {
           "kind": "typeIdentifier",
-          "text": "Base"
+          "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV",
+          "text": "IndexedCollection"
         },
         {
           "kind": "text",
@@ -446,7 +380,7 @@
         },
         {
           "kind": "typeIdentifier",
-          "preciseIdentifier": "s:Sl5IndexQa",
+          "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV5Indexa",
           "text": "Index"
         },
         {
@@ -455,25 +389,8 @@
         },
         {
           "kind": "typeIdentifier",
-          "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV",
-          "text": "IndexedCollection"
-        },
-        {
-          "kind": "text",
-          "text": "<"
-        },
-        {
-          "kind": "typeIdentifier",
-          "text": "Base"
-        },
-        {
-          "kind": "text",
-          "text": ">."
-        },
-        {
-          "kind": "typeIdentifier",
-          "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV7Elementa",
-          "text": "Element"
+          "preciseIdentifier": "s:SS",
+          "text": "String"
         }
       ],
       "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/subscript(_:)",
@@ -545,7 +462,7 @@
       "anchor": "Type-Aliases",
       "generated": true,
       "identifiers": [
-        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Element"
+        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Index"
       ],
       "title": "Type Aliases"
     },
@@ -556,7 +473,7 @@
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/BidirectionalCollection-Implementations",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/BidirectionalCollection-Implementations",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Collection-Implementations",
-        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Collection-Implementations",
+        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/RandomAccessCollection-Implementations",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Sequence-Implementations"
       ],
       "title": "Default Implementations"

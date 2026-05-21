@@ -1,24 +1,37 @@
 {
+  "abstract": [
+    {
+      "text": "Inherited from ",
+      "type": "text"
+    },
+    {
+      "code": "Collection.Index",
+      "type": "codeVoice"
+    },
+    {
+      "text": ".",
+      "type": "text"
+    }
+  ],
   "hierarchy": {
     "paths": [
       [
         "doc://DoccIssue/documentation/DoccIssue",
-        "doc://DoccIssue/documentation/DoccIssue/Swift"
+        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection"
       ]
     ]
   },
   "identifier": {
     "interfaceLanguage": "swift",
-    "url": "doc://DoccIssue/documentation/DoccIssue/Swift/Collection"
+    "url": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Index"
   },
   "kind": "symbol",
   "metadata": {
-    "extendedModule": "Swift",
-    "externalID": "s:e:s:Sl9DoccIssueE7indexedAA17IndexedCollectionVyxGyF",
+    "externalID": "s:9DoccIssue17IndexedCollectionV5Indexa",
     "fragments": [
       {
         "kind": "keyword",
-        "text": "extension"
+        "text": "typealias"
       },
       {
         "kind": "text",
@@ -26,28 +39,24 @@
       },
       {
         "kind": "identifier",
-        "preciseIdentifier": "s:Sl",
-        "text": "Collection"
+        "text": "Index"
       }
     ],
     "modules": [
       {
-        "name": "DoccIssue",
-        "relatedModules": [
-          "Swift"
-        ]
+        "name": "DoccIssue"
       }
     ],
     "navigatorTitle": [
       {
         "kind": "identifier",
-        "text": "Collection"
+        "text": "Index"
       }
     ],
     "role": "symbol",
-    "roleHeading": "Extended Protocol",
-    "symbolKind": "extension",
-    "title": "Collection"
+    "roleHeading": "Type Alias",
+    "symbolKind": "typealias",
+    "title": "IndexedCollection.Index"
   },
   "primaryContentSections": [
     {
@@ -62,16 +71,24 @@
           "tokens": [
             {
               "kind": "keyword",
-              "text": "extension"
+              "text": "typealias"
             },
             {
               "kind": "text",
               "text": " "
             },
             {
+              "kind": "identifier",
+              "text": "Index"
+            },
+            {
+              "kind": "text",
+              "text": " = "
+            },
+            {
               "kind": "typeIdentifier",
-              "preciseIdentifier": "s:Sl",
-              "text": "Collection"
+              "preciseIdentifier": "s:Si",
+              "text": "Int"
             }
           ]
         }
@@ -94,21 +111,12 @@
       "type": "topic",
       "url": "/documentation/doccissue"
     },
-    "doc://DoccIssue/documentation/DoccIssue/Swift": {
-      "abstract": [],
-      "identifier": "doc://DoccIssue/documentation/DoccIssue/Swift",
-      "kind": "symbol",
-      "role": "collection",
-      "title": "Swift",
-      "type": "topic",
-      "url": "/documentation/doccissue/swift"
-    },
-    "doc://DoccIssue/documentation/DoccIssue/Swift/Collection": {
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection": {
       "abstract": [],
       "fragments": [
         {
           "kind": "keyword",
-          "text": "extension"
+          "text": "struct"
         },
         {
           "kind": "text",
@@ -116,29 +124,28 @@
         },
         {
           "kind": "identifier",
-          "preciseIdentifier": "s:Sl",
-          "text": "Collection"
+          "text": "IndexedCollection"
         }
       ],
-      "identifier": "doc://DoccIssue/documentation/DoccIssue/Swift/Collection",
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection",
       "kind": "symbol",
       "navigatorTitle": [
         {
           "kind": "identifier",
-          "text": "Collection"
+          "text": "IndexedCollection"
         }
       ],
       "role": "symbol",
-      "title": "Collection",
+      "title": "IndexedCollection",
       "type": "topic",
-      "url": "/documentation/doccissue/swift/collection"
+      "url": "/documentation/doccissue/indexedcollection"
     },
-    "doc://DoccIssue/documentation/DoccIssue/Swift/Collection/indexed()": {
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Index": {
       "abstract": [],
       "fragments": [
         {
           "kind": "keyword",
-          "text": "func"
+          "text": "typealias"
         },
         {
           "kind": "text",
@@ -146,36 +153,21 @@
         },
         {
           "kind": "identifier",
-          "text": "indexed"
-        },
-        {
-          "kind": "text",
-          "text": "() -> "
-        },
-        {
-          "kind": "typeIdentifier",
-          "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV",
-          "text": "IndexedCollection"
-        },
-        {
-          "kind": "text",
-          "text": "<"
-        },
-        {
-          "kind": "typeIdentifier",
-          "text": "Self"
-        },
-        {
-          "kind": "text",
-          "text": ">"
+          "text": "Index"
         }
       ],
-      "identifier": "doc://DoccIssue/documentation/DoccIssue/Swift/Collection/indexed()",
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Index",
       "kind": "symbol",
+      "navigatorTitle": [
+        {
+          "kind": "identifier",
+          "text": "Index"
+        }
+      ],
       "role": "symbol",
-      "title": "indexed()",
+      "title": "IndexedCollection.Index",
       "type": "topic",
-      "url": "/documentation/doccissue/swift/collection/indexed()"
+      "url": "/documentation/doccissue/indexedcollection/index"
     }
   },
   "schemaVersion": {
@@ -184,20 +176,10 @@
     "patch": 0
   },
   "sections": [],
-  "topicSections": [
-    {
-      "anchor": "Instance-Methods",
-      "generated": true,
-      "identifiers": [
-        "doc://DoccIssue/documentation/DoccIssue/Swift/Collection/indexed()"
-      ],
-      "title": "Instance Methods"
-    }
-  ],
   "variants": [
     {
       "paths": [
-        "/documentation/doccissue/swift/collection"
+        "/documentation/doccissue/indexedcollection/index"
       ],
       "traits": [
         {

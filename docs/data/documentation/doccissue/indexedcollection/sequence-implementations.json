@@ -38,12 +38,7 @@
       "url": "/documentation/doccissue"
     },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection": {
-      "abstract": [
-        {
-          "text": "A collection view that pairs each index and element of an underlying collection.",
-          "type": "text"
-        }
-      ],
+      "abstract": [],
       "fragments": [
         {
           "kind": "keyword",
@@ -228,6 +223,87 @@
       "title": "compactMap(_:)",
       "type": "topic",
       "url": "/documentation/doccissue/indexedcollection/compactmap(_:)"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/contains(_:)": {
+      "abstract": [],
+      "conformance": {
+        "availabilityPrefix": [
+          {
+            "text": "Available when",
+            "type": "text"
+          }
+        ],
+        "conformancePrefix": [
+          {
+            "text": "Conforms when",
+            "type": "text"
+          }
+        ],
+        "constraints": [
+          {
+            "code": "Element",
+            "type": "codeVoice"
+          },
+          {
+            "text": " conforms to ",
+            "type": "text"
+          },
+          {
+            "code": "Equatable",
+            "type": "codeVoice"
+          },
+          {
+            "text": ".",
+            "type": "text"
+          }
+        ]
+      },
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "contains"
+        },
+        {
+          "kind": "text",
+          "text": "("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ") -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sb",
+          "text": "Bool"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/contains(_:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "contains(_:)",
+      "type": "topic",
+      "url": "/documentation/doccissue/indexedcollection/contains(_:)"
     },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/contains(where:)": {
       "abstract": [],
@@ -416,6 +492,86 @@
       "title": "count(where:)",
       "type": "topic",
       "url": "/documentation/doccissue/indexedcollection/count(where:)"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/elementsEqual(_:)": {
+      "abstract": [],
+      "conformance": {
+        "availabilityPrefix": [
+          {
+            "text": "Available when",
+            "type": "text"
+          }
+        ],
+        "conformancePrefix": [
+          {
+            "text": "Conforms when",
+            "type": "text"
+          }
+        ],
+        "constraints": [
+          {
+            "code": "Element",
+            "type": "codeVoice"
+          },
+          {
+            "text": " conforms to ",
+            "type": "text"
+          },
+          {
+            "code": "Equatable",
+            "type": "codeVoice"
+          },
+          {
+            "text": ".",
+            "type": "text"
+          }
+        ]
+      },
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "elementsEqual"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "genericParameter",
+          "text": "OtherSequence"
+        },
+        {
+          "kind": "text",
+          "text": ">("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "OtherSequence"
+        },
+        {
+          "kind": "text",
+          "text": ") -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sb",
+          "text": "Bool"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/elementsEqual(_:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "elementsEqual(_:)",
+      "type": "topic",
+      "url": "/documentation/doccissue/indexedcollection/elementsequal(_:)"
     },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/elementsEqual(_:by:)": {
       "abstract": [],
@@ -999,6 +1155,82 @@
       "type": "topic",
       "url": "/documentation/doccissue/indexedcollection/foreach(_:)"
     },
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/joined()": {
+      "abstract": [],
+      "conformance": {
+        "availabilityPrefix": [
+          {
+            "text": "Available when",
+            "type": "text"
+          }
+        ],
+        "conformancePrefix": [
+          {
+            "text": "Conforms when",
+            "type": "text"
+          }
+        ],
+        "constraints": [
+          {
+            "code": "Element",
+            "type": "codeVoice"
+          },
+          {
+            "text": " conforms to ",
+            "type": "text"
+          },
+          {
+            "code": "Sequence",
+            "type": "codeVoice"
+          },
+          {
+            "text": ".",
+            "type": "text"
+          }
+        ]
+      },
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "joined"
+        },
+        {
+          "kind": "text",
+          "text": "() -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:s15FlattenSequenceV",
+          "text": "FlattenSequence"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": ">"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/joined()",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "joined()",
+      "type": "topic",
+      "url": "/documentation/doccissue/indexedcollection/joined()"
+    },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/lazy": {
       "abstract": [],
       "fragments": [
@@ -1042,6 +1274,86 @@
       "title": "lazy",
       "type": "topic",
       "url": "/documentation/doccissue/indexedcollection/lazy"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/lexicographicallyPrecedes(_:)": {
+      "abstract": [],
+      "conformance": {
+        "availabilityPrefix": [
+          {
+            "text": "Available when",
+            "type": "text"
+          }
+        ],
+        "conformancePrefix": [
+          {
+            "text": "Conforms when",
+            "type": "text"
+          }
+        ],
+        "constraints": [
+          {
+            "code": "Element",
+            "type": "codeVoice"
+          },
+          {
+            "text": " conforms to ",
+            "type": "text"
+          },
+          {
+            "code": "Comparable",
+            "type": "codeVoice"
+          },
+          {
+            "text": ".",
+            "type": "text"
+          }
+        ]
+      },
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "lexicographicallyPrecedes"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "genericParameter",
+          "text": "OtherSequence"
+        },
+        {
+          "kind": "text",
+          "text": ">("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "OtherSequence"
+        },
+        {
+          "kind": "text",
+          "text": ") -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sb",
+          "text": "Bool"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/lexicographicallyPrecedes(_:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "lexicographicallyPrecedes(_:)",
+      "type": "topic",
+      "url": "/documentation/doccissue/indexedcollection/lexicographicallyprecedes(_:)"
     },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/lexicographicallyPrecedes(_:by:)": {
       "abstract": [],
@@ -1266,6 +1578,82 @@
       "type": "topic",
       "url": "/documentation/doccissue/indexedcollection/map(_:)-60bx6"
     },
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/max()": {
+      "abstract": [],
+      "conformance": {
+        "availabilityPrefix": [
+          {
+            "text": "Available when",
+            "type": "text"
+          }
+        ],
+        "conformancePrefix": [
+          {
+            "text": "Conforms when",
+            "type": "text"
+          }
+        ],
+        "constraints": [
+          {
+            "code": "Element",
+            "type": "codeVoice"
+          },
+          {
+            "text": " conforms to ",
+            "type": "text"
+          },
+          {
+            "code": "Comparable",
+            "type": "codeVoice"
+          },
+          {
+            "text": ".",
+            "type": "text"
+          }
+        ]
+      },
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "max"
+        },
+        {
+          "kind": "text",
+          "text": "() -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": "?"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/max()",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "max()",
+      "type": "topic",
+      "url": "/documentation/doccissue/indexedcollection/max()"
+    },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/max(by:)": {
       "abstract": [],
       "fragments": [
@@ -1376,6 +1764,82 @@
       "title": "max(by:)",
       "type": "topic",
       "url": "/documentation/doccissue/indexedcollection/max(by:)"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/min()": {
+      "abstract": [],
+      "conformance": {
+        "availabilityPrefix": [
+          {
+            "text": "Available when",
+            "type": "text"
+          }
+        ],
+        "conformancePrefix": [
+          {
+            "text": "Conforms when",
+            "type": "text"
+          }
+        ],
+        "constraints": [
+          {
+            "code": "Element",
+            "type": "codeVoice"
+          },
+          {
+            "text": " conforms to ",
+            "type": "text"
+          },
+          {
+            "code": "Comparable",
+            "type": "codeVoice"
+          },
+          {
+            "text": ".",
+            "type": "text"
+          }
+        ]
+      },
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "min"
+        },
+        {
+          "kind": "text",
+          "text": "() -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": "?"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/min()",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "min()",
+      "type": "topic",
+      "url": "/documentation/doccissue/indexedcollection/min()"
     },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/min(by:)": {
       "abstract": [],
@@ -1688,50 +2152,6 @@
       "type": "topic",
       "url": "/documentation/doccissue/indexedcollection/reduce(into:_:)"
     },
-    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/reversed()": {
-      "abstract": [],
-      "fragments": [
-        {
-          "kind": "keyword",
-          "text": "func"
-        },
-        {
-          "kind": "text",
-          "text": " "
-        },
-        {
-          "kind": "identifier",
-          "text": "reversed"
-        },
-        {
-          "kind": "text",
-          "text": "() -> ["
-        },
-        {
-          "kind": "typeIdentifier",
-          "text": "Self"
-        },
-        {
-          "kind": "text",
-          "text": "."
-        },
-        {
-          "kind": "typeIdentifier",
-          "preciseIdentifier": "s:ST7ElementQa",
-          "text": "Element"
-        },
-        {
-          "kind": "text",
-          "text": "]"
-        }
-      ],
-      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/reversed()",
-      "kind": "symbol",
-      "role": "symbol",
-      "title": "reversed()",
-      "type": "topic",
-      "url": "/documentation/doccissue/indexedcollection/reversed()"
-    },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/shuffled()": {
       "abstract": [],
       "fragments": [
@@ -1852,6 +2272,82 @@
       "type": "topic",
       "url": "/documentation/doccissue/indexedcollection/shuffled(using:)"
     },
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/sorted()": {
+      "abstract": [],
+      "conformance": {
+        "availabilityPrefix": [
+          {
+            "text": "Available when",
+            "type": "text"
+          }
+        ],
+        "conformancePrefix": [
+          {
+            "text": "Conforms when",
+            "type": "text"
+          }
+        ],
+        "constraints": [
+          {
+            "code": "Element",
+            "type": "codeVoice"
+          },
+          {
+            "text": " conforms to ",
+            "type": "text"
+          },
+          {
+            "code": "Comparable",
+            "type": "codeVoice"
+          },
+          {
+            "text": ".",
+            "type": "text"
+          }
+        ]
+      },
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "sorted"
+        },
+        {
+          "kind": "text",
+          "text": "() -> ["
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": "]"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/sorted()",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "sorted()",
+      "type": "topic",
+      "url": "/documentation/doccissue/indexedcollection/sorted()"
+    },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/sorted(by:)": {
       "abstract": [],
       "fragments": [
@@ -1962,6 +2458,94 @@
       "title": "sorted(by:)",
       "type": "topic",
       "url": "/documentation/doccissue/indexedcollection/sorted(by:)"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/starts(with:)": {
+      "abstract": [],
+      "conformance": {
+        "availabilityPrefix": [
+          {
+            "text": "Available when",
+            "type": "text"
+          }
+        ],
+        "conformancePrefix": [
+          {
+            "text": "Conforms when",
+            "type": "text"
+          }
+        ],
+        "constraints": [
+          {
+            "code": "Element",
+            "type": "codeVoice"
+          },
+          {
+            "text": " conforms to ",
+            "type": "text"
+          },
+          {
+            "code": "Equatable",
+            "type": "codeVoice"
+          },
+          {
+            "text": ".",
+            "type": "text"
+          }
+        ]
+      },
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "starts"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "genericParameter",
+          "text": "PossiblePrefix"
+        },
+        {
+          "kind": "text",
+          "text": ">("
+        },
+        {
+          "kind": "externalParam",
+          "text": "with"
+        },
+        {
+          "kind": "text",
+          "text": ": "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "PossiblePrefix"
+        },
+        {
+          "kind": "text",
+          "text": ") -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sb",
+          "text": "Bool"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/starts(with:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "starts(with:)",
+      "type": "topic",
+      "url": "/documentation/doccissue/indexedcollection/starts(with:)"
     },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/starts(with:by:)": {
       "abstract": [],
@@ -2201,8 +2785,10 @@
       "identifiers": [
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/allSatisfy(_:)",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/compactMap(_:)",
+        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/contains(_:)",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/contains(where:)",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/count(where:)",
+        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/elementsEqual(_:)",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/elementsEqual(_:by:)",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/enumerated()",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/filter(_:)",
@@ -2210,16 +2796,21 @@
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/flatMap(_:)-562k4",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/flatMap(_:)-5o6ym",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/forEach(_:)",
+        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/joined()",
+        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/lexicographicallyPrecedes(_:)",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/lexicographicallyPrecedes(_:by:)",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/map(_:)-60bx6",
+        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/max()",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/max(by:)",
+        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/min()",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/min(by:)",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/reduce(_:_:)",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/reduce(into:_:)",
-        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/reversed()",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/shuffled()",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/shuffled(using:)",
+        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/sorted()",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/sorted(by:)",
+        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/starts(with:)",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/starts(with:by:)",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/withContiguousStorageIfAvailable(_:)"
       ],

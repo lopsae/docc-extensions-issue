@@ -27,7 +27,7 @@
   },
   "kind": "symbol",
   "metadata": {
-    "externalID": "s:9DoccIssue17IndexedCollectionVy5IndexQz5index_7ElementQz7elementtAEcip",
+    "externalID": "s:9DoccIssue17IndexedCollectionVySSSicip",
     "fragments": [
       {
         "kind": "keyword",
@@ -39,7 +39,8 @@
       },
       {
         "kind": "typeIdentifier",
-        "text": "Base"
+        "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV",
+        "text": "IndexedCollection"
       },
       {
         "kind": "text",
@@ -47,7 +48,7 @@
       },
       {
         "kind": "typeIdentifier",
-        "preciseIdentifier": "s:Sl5IndexQa",
+        "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV5Indexa",
         "text": "Index"
       },
       {
@@ -56,25 +57,8 @@
       },
       {
         "kind": "typeIdentifier",
-        "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV",
-        "text": "IndexedCollection"
-      },
-      {
-        "kind": "text",
-        "text": "<"
-      },
-      {
-        "kind": "typeIdentifier",
-        "text": "Base"
-      },
-      {
-        "kind": "text",
-        "text": ">."
-      },
-      {
-        "kind": "typeIdentifier",
-        "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV7Elementa",
-        "text": "Element"
+        "preciseIdentifier": "s:SS",
+        "text": "String"
       }
     ],
     "modules": [
@@ -115,23 +99,6 @@
               "text": ": "
             },
             {
-              "kind": "typeIdentifier",
-              "text": "Base"
-            },
-            {
-              "kind": "text",
-              "text": "."
-            },
-            {
-              "kind": "typeIdentifier",
-              "preciseIdentifier": "s:Sl5IndexQa",
-              "text": "Index"
-            },
-            {
-              "kind": "text",
-              "text": ") -> "
-            },
-            {
               "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection",
               "kind": "typeIdentifier",
               "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV",
@@ -139,21 +106,22 @@
             },
             {
               "kind": "text",
-              "text": "<"
+              "text": "."
             },
             {
+              "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Index",
               "kind": "typeIdentifier",
-              "text": "Base"
+              "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV5Indexa",
+              "text": "Index"
             },
             {
               "kind": "text",
-              "text": ">."
+              "text": ") -> "
             },
             {
-              "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Element",
               "kind": "typeIdentifier",
-              "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV7Elementa",
-              "text": "Element"
+              "preciseIdentifier": "s:SS",
+              "text": "String"
             },
             {
               "kind": "text",
@@ -189,12 +157,7 @@
       "url": "/documentation/doccissue"
     },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection": {
-      "abstract": [
-        {
-          "text": "A collection view that pairs each index and element of an underlying collection.",
-          "type": "text"
-        }
-      ],
+      "abstract": [],
       "fragments": [
         {
           "kind": "keyword",
@@ -222,7 +185,7 @@
       "type": "topic",
       "url": "/documentation/doccissue/indexedcollection"
     },
-    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Element": {
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Index": {
       "abstract": [],
       "fragments": [
         {
@@ -235,21 +198,21 @@
         },
         {
           "kind": "identifier",
-          "text": "Element"
+          "text": "Index"
         }
       ],
-      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Element",
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Index",
       "kind": "symbol",
       "navigatorTitle": [
         {
           "kind": "identifier",
-          "text": "Element"
+          "text": "Index"
         }
       ],
       "role": "symbol",
-      "title": "IndexedCollection.Element",
+      "title": "IndexedCollection.Index",
       "type": "topic",
-      "url": "/documentation/doccissue/indexedcollection/element"
+      "url": "/documentation/doccissue/indexedcollection/index"
     },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/subscript(_:)": {
       "abstract": [],
@@ -264,7 +227,8 @@
         },
         {
           "kind": "typeIdentifier",
-          "text": "Base"
+          "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV",
+          "text": "IndexedCollection"
         },
         {
           "kind": "text",
@@ -272,7 +236,7 @@
         },
         {
           "kind": "typeIdentifier",
-          "preciseIdentifier": "s:Sl5IndexQa",
+          "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV5Indexa",
           "text": "Index"
         },
         {
@@ -281,25 +245,8 @@
         },
         {
           "kind": "typeIdentifier",
-          "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV",
-          "text": "IndexedCollection"
-        },
-        {
-          "kind": "text",
-          "text": "<"
-        },
-        {
-          "kind": "typeIdentifier",
-          "text": "Base"
-        },
-        {
-          "kind": "text",
-          "text": ">."
-        },
-        {
-          "kind": "typeIdentifier",
-          "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV7Elementa",
-          "text": "Element"
+          "preciseIdentifier": "s:SS",
+          "text": "String"
         }
       ],
       "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/subscript(_:)",

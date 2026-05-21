@@ -5,7 +5,7 @@
       "type": "text"
     },
     {
-      "code": "Sequence.reversed()",
+      "code": "BidirectionalCollection.reversed()",
       "type": "codeVoice"
     },
     {
@@ -28,7 +28,7 @@
   "kind": "symbol",
   "metadata": {
     "extendedModule": "Swift",
-    "externalID": "s:STsE8reversedSay7ElementQzGyF::SYNTHESIZED::s:9DoccIssue17IndexedCollectionV",
+    "externalID": "s:SKsE8reverseds18ReversedCollectionVyxGyF::SYNTHESIZED::s:9DoccIssue17IndexedCollectionV",
     "fragments": [
       {
         "kind": "keyword",
@@ -44,7 +44,16 @@
       },
       {
         "kind": "text",
-        "text": "() -> ["
+        "text": "() -> "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:s18ReversedCollectionV",
+        "text": "ReversedCollection"
+      },
+      {
+        "kind": "text",
+        "text": "<"
       },
       {
         "kind": "typeIdentifier",
@@ -52,16 +61,7 @@
       },
       {
         "kind": "text",
-        "text": "."
-      },
-      {
-        "kind": "typeIdentifier",
-        "preciseIdentifier": "s:ST7ElementQa",
-        "text": "Element"
-      },
-      {
-        "kind": "text",
-        "text": "]"
+        "text": ">"
       }
     ],
     "modules": [
@@ -102,7 +102,16 @@
             },
             {
               "kind": "text",
-              "text": "() -> ["
+              "text": "() -> "
+            },
+            {
+              "kind": "typeIdentifier",
+              "preciseIdentifier": "s:s18ReversedCollectionV",
+              "text": "ReversedCollection"
+            },
+            {
+              "kind": "text",
+              "text": "<"
             },
             {
               "kind": "typeIdentifier",
@@ -110,16 +119,7 @@
             },
             {
               "kind": "text",
-              "text": "."
-            },
-            {
-              "kind": "typeIdentifier",
-              "preciseIdentifier": "s:ST7ElementQa",
-              "text": "Element"
-            },
-            {
-              "kind": "text",
-              "text": "]"
+              "text": ">"
             }
           ]
         }
@@ -143,12 +143,7 @@
       "url": "/documentation/doccissue"
     },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection": {
-      "abstract": [
-        {
-          "text": "A collection view that pairs each index and element of an underlying collection.",
-          "type": "text"
-        }
-      ],
+      "abstract": [],
       "fragments": [
         {
           "kind": "keyword",
@@ -193,7 +188,16 @@
         },
         {
           "kind": "text",
-          "text": "() -> ["
+          "text": "() -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:s18ReversedCollectionV",
+          "text": "ReversedCollection"
+        },
+        {
+          "kind": "text",
+          "text": "<"
         },
         {
           "kind": "typeIdentifier",
@@ -201,16 +205,7 @@
         },
         {
           "kind": "text",
-          "text": "."
-        },
-        {
-          "kind": "typeIdentifier",
-          "preciseIdentifier": "s:ST7ElementQa",
-          "text": "Element"
-        },
-        {
-          "kind": "text",
-          "text": "]"
+          "text": ">"
         }
       ],
       "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/reversed()",

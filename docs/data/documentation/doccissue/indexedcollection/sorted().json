@@ -5,7 +5,7 @@
       "type": "text"
     },
     {
-      "code": "Sequence.Element",
+      "code": "Sequence.sorted()",
       "type": "codeVoice"
     },
     {
@@ -23,15 +23,48 @@
   },
   "identifier": {
     "interfaceLanguage": "swift",
-    "url": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Element"
+    "url": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/sorted()"
   },
   "kind": "symbol",
   "metadata": {
-    "externalID": "s:9DoccIssue17IndexedCollectionV7Elementa",
+    "conformance": {
+      "availabilityPrefix": [
+        {
+          "text": "Available when",
+          "type": "text"
+        }
+      ],
+      "conformancePrefix": [
+        {
+          "text": "Conforms when",
+          "type": "text"
+        }
+      ],
+      "constraints": [
+        {
+          "code": "Element",
+          "type": "codeVoice"
+        },
+        {
+          "text": " conforms to ",
+          "type": "text"
+        },
+        {
+          "code": "Comparable",
+          "type": "codeVoice"
+        },
+        {
+          "text": ".",
+          "type": "text"
+        }
+      ]
+    },
+    "extendedModule": "Swift",
+    "externalID": "s:STsSL7ElementRpzrlE6sortedSayABGyF::SYNTHESIZED::s:9DoccIssue17IndexedCollectionV",
     "fragments": [
       {
         "kind": "keyword",
-        "text": "typealias"
+        "text": "func"
       },
       {
         "kind": "text",
@@ -39,24 +72,42 @@
       },
       {
         "kind": "identifier",
+        "text": "sorted"
+      },
+      {
+        "kind": "text",
+        "text": "() -> ["
+      },
+      {
+        "kind": "typeIdentifier",
+        "text": "Self"
+      },
+      {
+        "kind": "text",
+        "text": "."
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:ST7ElementQa",
         "text": "Element"
+      },
+      {
+        "kind": "text",
+        "text": "]"
       }
     ],
     "modules": [
       {
-        "name": "DoccIssue"
-      }
-    ],
-    "navigatorTitle": [
-      {
-        "kind": "identifier",
-        "text": "Element"
+        "name": "DoccIssue",
+        "relatedModules": [
+          "Swift"
+        ]
       }
     ],
     "role": "symbol",
-    "roleHeading": "Type Alias",
-    "symbolKind": "typealias",
-    "title": "IndexedCollection.Element"
+    "roleHeading": "Instance Method",
+    "symbolKind": "method",
+    "title": "sorted()"
   },
   "primaryContentSections": [
     {
@@ -71,7 +122,7 @@
           "tokens": [
             {
               "kind": "keyword",
-              "text": "typealias"
+              "text": "func"
             },
             {
               "kind": "text",
@@ -79,40 +130,15 @@
             },
             {
               "kind": "identifier",
-              "text": "Element"
+              "text": "sorted"
             },
             {
               "kind": "text",
-              "text": " = (index"
-            },
-            {
-              "kind": "text",
-              "text": ": "
+              "text": "() -> ["
             },
             {
               "kind": "typeIdentifier",
-              "text": "Base"
-            },
-            {
-              "kind": "text",
-              "text": "."
-            },
-            {
-              "kind": "typeIdentifier",
-              "preciseIdentifier": "s:Sl5IndexQa",
-              "text": "Index"
-            },
-            {
-              "kind": "text",
-              "text": ", element"
-            },
-            {
-              "kind": "text",
-              "text": ": "
-            },
-            {
-              "kind": "typeIdentifier",
-              "text": "Base"
+              "text": "Self"
             },
             {
               "kind": "text",
@@ -125,7 +151,7 @@
             },
             {
               "kind": "text",
-              "text": ")"
+              "text": "]"
             }
           ]
         }
@@ -149,12 +175,7 @@
       "url": "/documentation/doccissue"
     },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection": {
-      "abstract": [
-        {
-          "text": "A collection view that pairs each index and element of an underlying collection.",
-          "type": "text"
-        }
-      ],
+      "abstract": [],
       "fragments": [
         {
           "kind": "keyword",
@@ -182,12 +203,44 @@
       "type": "topic",
       "url": "/documentation/doccissue/indexedcollection"
     },
-    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Element": {
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/sorted()": {
       "abstract": [],
+      "conformance": {
+        "availabilityPrefix": [
+          {
+            "text": "Available when",
+            "type": "text"
+          }
+        ],
+        "conformancePrefix": [
+          {
+            "text": "Conforms when",
+            "type": "text"
+          }
+        ],
+        "constraints": [
+          {
+            "code": "Element",
+            "type": "codeVoice"
+          },
+          {
+            "text": " conforms to ",
+            "type": "text"
+          },
+          {
+            "code": "Comparable",
+            "type": "codeVoice"
+          },
+          {
+            "text": ".",
+            "type": "text"
+          }
+        ]
+      },
       "fragments": [
         {
           "kind": "keyword",
-          "text": "typealias"
+          "text": "func"
         },
         {
           "kind": "text",
@@ -195,21 +248,36 @@
         },
         {
           "kind": "identifier",
-          "text": "Element"
-        }
-      ],
-      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Element",
-      "kind": "symbol",
-      "navigatorTitle": [
+          "text": "sorted"
+        },
         {
-          "kind": "identifier",
+          "kind": "text",
+          "text": "() -> ["
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
           "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": "]"
         }
       ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/sorted()",
+      "kind": "symbol",
       "role": "symbol",
-      "title": "IndexedCollection.Element",
+      "title": "sorted()",
       "type": "topic",
-      "url": "/documentation/doccissue/indexedcollection/element"
+      "url": "/documentation/doccissue/indexedcollection/sorted()"
     }
   },
   "schemaVersion": {
@@ -221,7 +289,7 @@
   "variants": [
     {
       "paths": [
-        "/documentation/doccissue/indexedcollection/element"
+        "/documentation/doccissue/indexedcollection/sorted()"
       ],
       "traits": [
         {
