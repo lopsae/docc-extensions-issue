@@ -17,13 +17,13 @@
                 "type": "groupMarker"
               },
               {
-                "path": "/documentation/doccissue/indexedcollection/endindex",
-                "title": "var endIndex: IndexedCollection.Index",
+                "path": "/documentation/doccissue/fixedcollection/endindex",
+                "title": "var endIndex: FixedCollection.Index",
                 "type": "property"
               },
               {
-                "path": "/documentation/doccissue/indexedcollection/startindex",
-                "title": "var startIndex: IndexedCollection.Index",
+                "path": "/documentation/doccissue/fixedcollection/startindex",
+                "title": "var startIndex: FixedCollection.Index",
                 "type": "property"
               },
               {
@@ -31,8 +31,8 @@
                 "type": "groupMarker"
               },
               {
-                "path": "/documentation/doccissue/indexedcollection/index(after:)",
-                "title": "func index(after: IndexedCollection.Index) -> IndexedCollection.Index",
+                "path": "/documentation/doccissue/fixedcollection/index(after:)",
+                "title": "func index(after: FixedCollection.Index) -> FixedCollection.Index",
                 "type": "method"
               },
               {
@@ -40,8 +40,8 @@
                 "type": "groupMarker"
               },
               {
-                "path": "/documentation/doccissue/indexedcollection/subscript(_:)",
-                "title": "subscript(IndexedCollection.Index) -> String",
+                "path": "/documentation/doccissue/fixedcollection/subscript(_:)",
+                "title": "subscript(FixedCollection.Index) -> String",
                 "type": "subscript"
               },
               {
@@ -49,8 +49,8 @@
                 "type": "groupMarker"
               },
               {
-                "path": "/documentation/doccissue/indexedcollection/index",
-                "title": "IndexedCollection.Index",
+                "path": "/documentation/doccissue/fixedcollection/index",
+                "title": "FixedCollection.Index",
                 "type": "typealias"
               },
               {
@@ -64,12 +64,12 @@
                     "type": "groupMarker"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/finalindex",
+                    "path": "/documentation/doccissue/fixedcollection/finalindex",
                     "title": "var finalIndex: Self.Index",
                     "type": "property"
                   }
                 ],
-                "path": "/documentation/doccissue/indexedcollection/bidirectionalcollection-implementations",
+                "path": "/documentation/doccissue/fixedcollection/bidirectionalcollection-implementations",
                 "title": "BidirectionalCollection Implementations",
                 "type": "symbol"
               },
@@ -80,12 +80,12 @@
                     "type": "groupMarker"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/finalindex",
+                    "path": "/documentation/doccissue/fixedcollection/finalindex",
                     "title": "var finalIndex: Self.Index",
                     "type": "property"
                   }
                 ],
-                "path": "/documentation/doccissue/indexedcollection/bidirectionalcollection-implementations",
+                "path": "/documentation/doccissue/fixedcollection/bidirectionalcollection-implementations",
                 "title": "BidirectionalCollection Implementations",
                 "type": "symbol"
               },
@@ -96,27 +96,27 @@
                     "type": "groupMarker"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/count",
+                    "path": "/documentation/doccissue/fixedcollection/count",
                     "title": "var count: Int",
                     "type": "property"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/first",
+                    "path": "/documentation/doccissue/fixedcollection/first",
                     "title": "var first: Self.Element?",
                     "type": "property"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/indices",
+                    "path": "/documentation/doccissue/fixedcollection/indices",
                     "title": "var indices: DefaultIndices<Self>",
                     "type": "property"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/isempty",
+                    "path": "/documentation/doccissue/fixedcollection/isempty",
                     "title": "var isEmpty: Bool",
                     "type": "property"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/underestimatedcount",
+                    "path": "/documentation/doccissue/fixedcollection/underestimatedcount",
                     "title": "var underestimatedCount: Int",
                     "type": "property"
                   },
@@ -125,138 +125,138 @@
                     "type": "groupMarker"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/drop(while:)",
+                    "path": "/documentation/doccissue/fixedcollection/drop(while:)",
                     "title": "func drop(while: (Self.Element) throws -> Bool) rethrows -> Self.SubSequence",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/dropfirst(_:)",
+                    "path": "/documentation/doccissue/fixedcollection/dropfirst(_:)",
                     "title": "func dropFirst(Int) -> Self.SubSequence",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/firstindex(of:)",
+                    "path": "/documentation/doccissue/fixedcollection/firstindex(of:)",
                     "title": "func firstIndex(of: Self.Element) -> Self.Index?",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/firstindex(where:)",
+                    "path": "/documentation/doccissue/fixedcollection/firstindex(where:)",
                     "title": "func firstIndex(where: (Self.Element) throws -> Bool) rethrows -> Self.Index?",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/firstrange(of:)-94ffx",
+                    "path": "/documentation/doccissue/fixedcollection/firstrange(of:)-33w5h",
                     "title": "func firstRange<C>(of: C) -> Range<Self.Index>?",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/formindex(_:offsetby:)",
+                    "path": "/documentation/doccissue/fixedcollection/formindex(_:offsetby:)",
                     "title": "func formIndex(inout Self.Index, offsetBy: Int)",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/formindex(_:offsetby:limitedby:)",
+                    "path": "/documentation/doccissue/fixedcollection/formindex(_:offsetby:limitedby:)",
                     "title": "func formIndex(inout Self.Index, offsetBy: Int, limitedBy: Self.Index) -> Bool",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/formindex(after:)",
+                    "path": "/documentation/doccissue/fixedcollection/formindex(after:)",
                     "title": "func formIndex(after: inout Self.Index)",
                     "type": "method"
                   },
                   {
                     "deprecated": true,
-                    "path": "/documentation/doccissue/indexedcollection/index(of:)",
+                    "path": "/documentation/doccissue/fixedcollection/index(of:)",
                     "title": "func index(of: Self.Element) -> Self.Index?",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/indices(of:)",
+                    "path": "/documentation/doccissue/fixedcollection/indices(of:)",
                     "title": "func indices(of: Self.Element) -> RangeSet<Self.Index>",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/indices(where:)",
+                    "path": "/documentation/doccissue/fixedcollection/indices(where:)",
                     "title": "func indices(where: (Self.Element) throws -> Bool) rethrows -> RangeSet<Self.Index>",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/makeiterator()",
+                    "path": "/documentation/doccissue/fixedcollection/makeiterator()",
                     "title": "func makeIterator() -> IndexingIterator<Self>",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/map(_:)-132hu",
+                    "path": "/documentation/doccissue/fixedcollection/map(_:)-7qp5s",
                     "title": "func map<T, E>((Self.Element) throws(E) -> T) throws(E) -> [T]",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/prefix(_:)",
+                    "path": "/documentation/doccissue/fixedcollection/prefix(_:)",
                     "title": "func prefix(Int) -> Self.SubSequence",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/prefix(through:)",
+                    "path": "/documentation/doccissue/fixedcollection/prefix(through:)",
                     "title": "func prefix(through: Self.Index) -> Self.SubSequence",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/prefix(upto:)",
+                    "path": "/documentation/doccissue/fixedcollection/prefix(upto:)",
                     "title": "func prefix(upTo: Self.Index) -> Self.SubSequence",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/prefix(while:)",
+                    "path": "/documentation/doccissue/fixedcollection/prefix(while:)",
                     "title": "func prefix(while: (Self.Element) throws -> Bool) rethrows -> Self.SubSequence",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/randomelement()",
+                    "path": "/documentation/doccissue/fixedcollection/randomelement()",
                     "title": "func randomElement() -> Self.Element?",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/randomelement(using:)",
+                    "path": "/documentation/doccissue/fixedcollection/randomelement(using:)",
                     "title": "func randomElement<T>(using: inout T) -> Self.Element?",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/ranges(of:)",
+                    "path": "/documentation/doccissue/fixedcollection/ranges(of:)",
                     "title": "func ranges<C>(of: C) -> [Range<Self.Index>]",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/removingsubranges(_:)",
+                    "path": "/documentation/doccissue/fixedcollection/removingsubranges(_:)",
                     "title": "func removingSubranges(RangeSet<Self.Index>) -> DiscontiguousSlice<Self>",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/split(maxsplits:omittingemptysubsequences:whereseparator:)",
+                    "path": "/documentation/doccissue/fixedcollection/split(maxsplits:omittingemptysubsequences:whereseparator:)",
                     "title": "func split(maxSplits: Int, omittingEmptySubsequences: Bool, whereSeparator: (Self.Element) throws -> Bool) rethrows -> [Self.SubSequence]",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/split(separator:maxsplits:omittingemptysubsequences:)",
+                    "path": "/documentation/doccissue/fixedcollection/split(separator:maxsplits:omittingemptysubsequences:)",
                     "title": "func split(separator: Self.Element, maxSplits: Int, omittingEmptySubsequences: Bool) -> [Self.SubSequence]",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/suffix(from:)",
+                    "path": "/documentation/doccissue/fixedcollection/suffix(from:)",
                     "title": "func suffix(from: Self.Index) -> Self.SubSequence",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/trimmingprefix(_:)",
+                    "path": "/documentation/doccissue/fixedcollection/trimmingprefix(_:)",
                     "title": "func trimmingPrefix<Prefix>(Prefix) -> Self.SubSequence",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/trimmingprefix(while:)",
+                    "path": "/documentation/doccissue/fixedcollection/trimmingprefix(while:)",
                     "title": "func trimmingPrefix(while: (Self.Element) throws -> Bool) rethrows -> Self.SubSequence",
                     "type": "method"
                   }
                 ],
-                "path": "/documentation/doccissue/indexedcollection/collection-implementations",
+                "path": "/documentation/doccissue/fixedcollection/collection-implementations",
                 "title": "Collection Implementations",
                 "type": "symbol"
               },
@@ -267,7 +267,7 @@
                     "type": "groupMarker"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/lazy",
+                    "path": "/documentation/doccissue/fixedcollection/lazy",
                     "title": "var lazy: LazySequence<Self>",
                     "type": "property"
                   },
@@ -276,164 +276,164 @@
                     "type": "groupMarker"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/allsatisfy(_:)",
+                    "path": "/documentation/doccissue/fixedcollection/allsatisfy(_:)",
                     "title": "func allSatisfy((Self.Element) throws -> Bool) rethrows -> Bool",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/compactmap(_:)",
+                    "path": "/documentation/doccissue/fixedcollection/compactmap(_:)",
                     "title": "func compactMap<ElementOfResult>((Self.Element) throws -> ElementOfResult?) rethrows -> [ElementOfResult]",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/contains(_:)",
+                    "path": "/documentation/doccissue/fixedcollection/contains(_:)",
                     "title": "func contains(Self.Element) -> Bool",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/contains(where:)",
+                    "path": "/documentation/doccissue/fixedcollection/contains(where:)",
                     "title": "func contains(where: (Self.Element) throws -> Bool) rethrows -> Bool",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/count(where:)",
+                    "path": "/documentation/doccissue/fixedcollection/count(where:)",
                     "title": "func count<E>(where: (Self.Element) throws(E) -> Bool) throws(E) -> Int",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/elementsequal(_:)",
+                    "path": "/documentation/doccissue/fixedcollection/elementsequal(_:)",
                     "title": "func elementsEqual<OtherSequence>(OtherSequence) -> Bool",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/elementsequal(_:by:)",
+                    "path": "/documentation/doccissue/fixedcollection/elementsequal(_:by:)",
                     "title": "func elementsEqual<OtherSequence>(OtherSequence, by: (Self.Element, OtherSequence.Element) throws -> Bool) rethrows -> Bool",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/enumerated()",
+                    "path": "/documentation/doccissue/fixedcollection/enumerated()",
                     "title": "func enumerated() -> EnumeratedSequence<Self>",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/filter(_:)",
+                    "path": "/documentation/doccissue/fixedcollection/filter(_:)",
                     "title": "func filter((Self.Element) throws -> Bool) rethrows -> [Self.Element]",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/first(where:)",
+                    "path": "/documentation/doccissue/fixedcollection/first(where:)",
                     "title": "func first(where: (Self.Element) throws -> Bool) rethrows -> Self.Element?",
                     "type": "method"
                   },
                   {
                     "deprecated": true,
-                    "path": "/documentation/doccissue/indexedcollection/flatmap(_:)-562k4",
+                    "path": "/documentation/doccissue/fixedcollection/flatmap(_:)-1mbi0",
                     "title": "func flatMap<ElementOfResult>((Self.Element) throws -> ElementOfResult?) rethrows -> [ElementOfResult]",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/flatmap(_:)-5o6ym",
+                    "path": "/documentation/doccissue/fixedcollection/flatmap(_:)-ov28",
                     "title": "func flatMap<SegmentOfResult>((Self.Element) throws -> SegmentOfResult) rethrows -> [SegmentOfResult.Element]",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/foreach(_:)",
+                    "path": "/documentation/doccissue/fixedcollection/foreach(_:)",
                     "title": "func forEach((Self.Element) throws -> Void) rethrows",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/joined()",
+                    "path": "/documentation/doccissue/fixedcollection/joined()",
                     "title": "func joined() -> FlattenSequence<Self>",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/lexicographicallyprecedes(_:)",
+                    "path": "/documentation/doccissue/fixedcollection/lexicographicallyprecedes(_:)",
                     "title": "func lexicographicallyPrecedes<OtherSequence>(OtherSequence) -> Bool",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/lexicographicallyprecedes(_:by:)",
+                    "path": "/documentation/doccissue/fixedcollection/lexicographicallyprecedes(_:by:)",
                     "title": "func lexicographicallyPrecedes<OtherSequence>(OtherSequence, by: (Self.Element, Self.Element) throws -> Bool) rethrows -> Bool",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/map(_:)-60bx6",
+                    "path": "/documentation/doccissue/fixedcollection/map(_:)-4phrj",
                     "title": "func map<T, E>((Self.Element) throws(E) -> T) throws(E) -> [T]",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/max()",
+                    "path": "/documentation/doccissue/fixedcollection/max()",
                     "title": "func max() -> Self.Element?",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/max(by:)",
+                    "path": "/documentation/doccissue/fixedcollection/max(by:)",
                     "title": "func max(by: (Self.Element, Self.Element) throws -> Bool) rethrows -> Self.Element?",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/min()",
+                    "path": "/documentation/doccissue/fixedcollection/min()",
                     "title": "func min() -> Self.Element?",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/min(by:)",
+                    "path": "/documentation/doccissue/fixedcollection/min(by:)",
                     "title": "func min(by: (Self.Element, Self.Element) throws -> Bool) rethrows -> Self.Element?",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/reduce(_:_:)",
+                    "path": "/documentation/doccissue/fixedcollection/reduce(_:_:)",
                     "title": "func reduce<Result>(Result, (Result, Self.Element) throws -> Result) rethrows -> Result",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/reduce(into:_:)",
+                    "path": "/documentation/doccissue/fixedcollection/reduce(into:_:)",
                     "title": "func reduce<Result>(into: Result, (inout Result, Self.Element) throws -> ()) rethrows -> Result",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/shuffled()",
+                    "path": "/documentation/doccissue/fixedcollection/shuffled()",
                     "title": "func shuffled() -> [Self.Element]",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/shuffled(using:)",
+                    "path": "/documentation/doccissue/fixedcollection/shuffled(using:)",
                     "title": "func shuffled<T>(using: inout T) -> [Self.Element]",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/sorted()",
+                    "path": "/documentation/doccissue/fixedcollection/sorted()",
                     "title": "func sorted() -> [Self.Element]",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/sorted(by:)",
+                    "path": "/documentation/doccissue/fixedcollection/sorted(by:)",
                     "title": "func sorted(by: (Self.Element, Self.Element) throws -> Bool) rethrows -> [Self.Element]",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/starts(with:)",
+                    "path": "/documentation/doccissue/fixedcollection/starts(with:)",
                     "title": "func starts<PossiblePrefix>(with: PossiblePrefix) -> Bool",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/starts(with:by:)",
+                    "path": "/documentation/doccissue/fixedcollection/starts(with:by:)",
                     "title": "func starts<PossiblePrefix>(with: PossiblePrefix, by: (Self.Element, PossiblePrefix.Element) throws -> Bool) rethrows -> Bool",
                     "type": "method"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/withcontiguousstorageifavailable(_:)",
+                    "path": "/documentation/doccissue/fixedcollection/withcontiguousstorageifavailable(_:)",
                     "title": "func withContiguousStorageIfAvailable<R>((UnsafeBufferPointer<Self.Element>) throws -> R) rethrows -> R?",
                     "type": "method"
                   }
                 ],
-                "path": "/documentation/doccissue/indexedcollection/sequence-implementations",
+                "path": "/documentation/doccissue/fixedcollection/sequence-implementations",
                 "title": "Sequence Implementations",
                 "type": "symbol"
               }
             ],
-            "path": "/documentation/doccissue/indexedcollection",
-            "title": "IndexedCollection",
+            "path": "/documentation/doccissue/fixedcollection",
+            "title": "FixedCollection",
             "type": "struct"
           },
           {

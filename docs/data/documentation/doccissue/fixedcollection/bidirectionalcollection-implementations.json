@@ -1,25 +1,26 @@
 {
   "hierarchy": {
     "paths": [
-      []
+      [
+        "doc://DoccIssue/documentation/DoccIssue",
+        "doc://DoccIssue/documentation/DoccIssue/FixedCollection"
+      ]
     ]
   },
   "identifier": {
     "interfaceLanguage": "swift",
-    "url": "doc://DoccIssue/documentation/DoccIssue"
+    "url": "doc://DoccIssue/documentation/DoccIssue/FixedCollection/BidirectionalCollection-Implementations"
   },
-  "kind": "symbol",
+  "kind": "article",
   "metadata": {
-    "externalID": "DoccIssue",
     "modules": [
       {
         "name": "DoccIssue"
       }
     ],
-    "role": "collection",
-    "roleHeading": "Framework",
-    "symbolKind": "module",
-    "title": "DoccIssue"
+    "role": "collectionGroup",
+    "roleHeading": "API Collection",
+    "title": "BidirectionalCollection Implementations"
   },
   "references": {
     "doc://DoccIssue/documentation/DoccIssue": {
@@ -60,14 +61,45 @@
       "type": "topic",
       "url": "/documentation/doccissue/fixedcollection"
     },
-    "doc://DoccIssue/documentation/DoccIssue/Swift": {
+    "doc://DoccIssue/documentation/DoccIssue/FixedCollection/finalIndex": {
       "abstract": [],
-      "identifier": "doc://DoccIssue/documentation/DoccIssue/Swift",
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "var"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "finalIndex"
+        },
+        {
+          "kind": "text",
+          "text": ": "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sl5IndexQa",
+          "text": "Index"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/FixedCollection/finalIndex",
       "kind": "symbol",
-      "role": "collection",
-      "title": "Swift",
+      "role": "symbol",
+      "title": "finalIndex",
       "type": "topic",
-      "url": "/documentation/doccissue/swift"
+      "url": "/documentation/doccissue/fixedcollection/finalindex"
     }
   },
   "schemaVersion": {
@@ -78,26 +110,18 @@
   "sections": [],
   "topicSections": [
     {
-      "anchor": "Structures",
+      "anchor": "Instance-Properties",
       "generated": true,
       "identifiers": [
-        "doc://DoccIssue/documentation/DoccIssue/FixedCollection"
+        "doc://DoccIssue/documentation/DoccIssue/FixedCollection/finalIndex"
       ],
-      "title": "Structures"
-    },
-    {
-      "anchor": "Extended-Modules",
-      "generated": true,
-      "identifiers": [
-        "doc://DoccIssue/documentation/DoccIssue/Swift"
-      ],
-      "title": "Extended Modules"
+      "title": "Instance Properties"
     }
   ],
   "variants": [
     {
       "paths": [
-        "/documentation/doccissue"
+        "/documentation/doccissue/fixedcollection/bidirectionalcollection-implementations"
       ],
       "traits": [
         {

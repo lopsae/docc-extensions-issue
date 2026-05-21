@@ -81,12 +81,7 @@
   ],
   "references": {
     "doc://DoccIssue/documentation/DoccIssue": {
-      "abstract": [
-        {
-          "text": "Repository to test issues found with swift-docc-plugin.",
-          "type": "text"
-        }
-      ],
+      "abstract": [],
       "identifier": "doc://DoccIssue/documentation/DoccIssue",
       "kind": "symbol",
       "role": "collection",

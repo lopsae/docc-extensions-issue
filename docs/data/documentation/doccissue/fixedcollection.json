@@ -1,0 +1,473 @@
+{
+  "hierarchy": {
+    "paths": [
+      [
+        "doc://DoccIssue/documentation/DoccIssue"
+      ]
+    ]
+  },
+  "identifier": {
+    "interfaceLanguage": "swift",
+    "url": "doc://DoccIssue/documentation/DoccIssue/FixedCollection"
+  },
+  "kind": "symbol",
+  "metadata": {
+    "externalID": "s:9DoccIssue15FixedCollectionV",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "struct"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "FixedCollection"
+      }
+    ],
+    "modules": [
+      {
+        "name": "DoccIssue"
+      }
+    ],
+    "navigatorTitle": [
+      {
+        "kind": "identifier",
+        "text": "FixedCollection"
+      }
+    ],
+    "role": "symbol",
+    "roleHeading": "Structure",
+    "symbolKind": "struct",
+    "title": "FixedCollection"
+  },
+  "primaryContentSections": [
+    {
+      "declarations": [
+        {
+          "languages": [
+            "swift"
+          ],
+          "platforms": [
+            "macOS"
+          ],
+          "tokens": [
+            {
+              "kind": "attribute",
+              "text": "nonisolated"
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "keyword",
+              "text": "struct"
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "identifier",
+              "text": "FixedCollection"
+            }
+          ]
+        }
+      ],
+      "kind": "declarations"
+    }
+  ],
+  "references": {
+    "doc://DoccIssue/SK": {
+      "identifier": "doc://DoccIssue/SK",
+      "title": "Swift.BidirectionalCollection",
+      "type": "unresolvable"
+    },
+    "doc://DoccIssue/ST": {
+      "identifier": "doc://DoccIssue/ST",
+      "title": "Swift.Sequence",
+      "type": "unresolvable"
+    },
+    "doc://DoccIssue/Sl": {
+      "identifier": "doc://DoccIssue/Sl",
+      "title": "Swift.Collection",
+      "type": "unresolvable"
+    },
+    "doc://DoccIssue/documentation/DoccIssue": {
+      "abstract": [],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue",
+      "kind": "symbol",
+      "role": "collection",
+      "title": "DoccIssue",
+      "type": "topic",
+      "url": "/documentation/doccissue"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/FixedCollection": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "struct"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "FixedCollection"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/FixedCollection",
+      "kind": "symbol",
+      "navigatorTitle": [
+        {
+          "kind": "identifier",
+          "text": "FixedCollection"
+        }
+      ],
+      "role": "symbol",
+      "title": "FixedCollection",
+      "type": "topic",
+      "url": "/documentation/doccissue/fixedcollection"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/FixedCollection/BidirectionalCollection-Implementations": {
+      "abstract": [],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/FixedCollection/BidirectionalCollection-Implementations",
+      "kind": "article",
+      "role": "collectionGroup",
+      "title": "BidirectionalCollection Implementations",
+      "type": "topic",
+      "url": "/documentation/doccissue/fixedcollection/bidirectionalcollection-implementations"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/FixedCollection/Collection-Implementations": {
+      "abstract": [],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/FixedCollection/Collection-Implementations",
+      "kind": "article",
+      "role": "collectionGroup",
+      "title": "Collection Implementations",
+      "type": "topic",
+      "url": "/documentation/doccissue/fixedcollection/collection-implementations"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/FixedCollection/Index": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "typealias"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "Index"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/FixedCollection/Index",
+      "kind": "symbol",
+      "navigatorTitle": [
+        {
+          "kind": "identifier",
+          "text": "Index"
+        }
+      ],
+      "role": "symbol",
+      "title": "FixedCollection.Index",
+      "type": "topic",
+      "url": "/documentation/doccissue/fixedcollection/index"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/FixedCollection/Sequence-Implementations": {
+      "abstract": [],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/FixedCollection/Sequence-Implementations",
+      "kind": "article",
+      "role": "collectionGroup",
+      "title": "Sequence Implementations",
+      "type": "topic",
+      "url": "/documentation/doccissue/fixedcollection/sequence-implementations"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/FixedCollection/endIndex": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "var"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "endIndex"
+        },
+        {
+          "kind": "text",
+          "text": ": "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:9DoccIssue15FixedCollectionV",
+          "text": "FixedCollection"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:9DoccIssue15FixedCollectionV5Indexa",
+          "text": "Index"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/FixedCollection/endIndex",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "endIndex",
+      "type": "topic",
+      "url": "/documentation/doccissue/fixedcollection/endindex"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/FixedCollection/index(after:)": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "index"
+        },
+        {
+          "kind": "text",
+          "text": "("
+        },
+        {
+          "kind": "externalParam",
+          "text": "after"
+        },
+        {
+          "kind": "text",
+          "text": ": "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:9DoccIssue15FixedCollectionV",
+          "text": "FixedCollection"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:9DoccIssue15FixedCollectionV5Indexa",
+          "text": "Index"
+        },
+        {
+          "kind": "text",
+          "text": ") -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:9DoccIssue15FixedCollectionV",
+          "text": "FixedCollection"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:9DoccIssue15FixedCollectionV5Indexa",
+          "text": "Index"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/FixedCollection/index(after:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "index(after:)",
+      "type": "topic",
+      "url": "/documentation/doccissue/fixedcollection/index(after:)"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/FixedCollection/startIndex": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "var"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "startIndex"
+        },
+        {
+          "kind": "text",
+          "text": ": "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:9DoccIssue15FixedCollectionV",
+          "text": "FixedCollection"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:9DoccIssue15FixedCollectionV5Indexa",
+          "text": "Index"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/FixedCollection/startIndex",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "startIndex",
+      "type": "topic",
+      "url": "/documentation/doccissue/fixedcollection/startindex"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/FixedCollection/subscript(_:)": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "subscript"
+        },
+        {
+          "kind": "text",
+          "text": "("
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:9DoccIssue15FixedCollectionV",
+          "text": "FixedCollection"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:9DoccIssue15FixedCollectionV5Indexa",
+          "text": "Index"
+        },
+        {
+          "kind": "text",
+          "text": ") -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:SS",
+          "text": "String"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/FixedCollection/subscript(_:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "subscript(_:)",
+      "type": "topic",
+      "url": "/documentation/doccissue/fixedcollection/subscript(_:)"
+    },
+    "doc://DoccIssue/s8CopyableP": {
+      "identifier": "doc://DoccIssue/s8CopyableP",
+      "title": "Swift.Copyable",
+      "type": "unresolvable"
+    },
+    "doc://DoccIssue/s9EscapableP": {
+      "identifier": "doc://DoccIssue/s9EscapableP",
+      "title": "Swift.Escapable",
+      "type": "unresolvable"
+    }
+  },
+  "relationshipsSections": [
+    {
+      "identifiers": [
+        "doc://DoccIssue/SK",
+        "doc://DoccIssue/Sl",
+        "doc://DoccIssue/s8CopyableP",
+        "doc://DoccIssue/s9EscapableP",
+        "doc://DoccIssue/ST"
+      ],
+      "kind": "relationships",
+      "title": "Conforms To",
+      "type": "conformsTo"
+    }
+  ],
+  "schemaVersion": {
+    "major": 0,
+    "minor": 3,
+    "patch": 0
+  },
+  "sections": [],
+  "topicSections": [
+    {
+      "anchor": "Instance-Properties",
+      "generated": true,
+      "identifiers": [
+        "doc://DoccIssue/documentation/DoccIssue/FixedCollection/endIndex",
+        "doc://DoccIssue/documentation/DoccIssue/FixedCollection/startIndex"
+      ],
+      "title": "Instance Properties"
+    },
+    {
+      "anchor": "Instance-Methods",
+      "generated": true,
+      "identifiers": [
+        "doc://DoccIssue/documentation/DoccIssue/FixedCollection/index(after:)"
+      ],
+      "title": "Instance Methods"
+    },
+    {
+      "anchor": "Subscripts",
+      "generated": true,
+      "identifiers": [
+        "doc://DoccIssue/documentation/DoccIssue/FixedCollection/subscript(_:)"
+      ],
+      "title": "Subscripts"
+    },
+    {
+      "anchor": "Type-Aliases",
+      "generated": true,
+      "identifiers": [
+        "doc://DoccIssue/documentation/DoccIssue/FixedCollection/Index"
+      ],
+      "title": "Type Aliases"
+    },
+    {
+      "anchor": "Default-Implementations",
+      "generated": true,
+      "identifiers": [
+        "doc://DoccIssue/documentation/DoccIssue/FixedCollection/BidirectionalCollection-Implementations",
+        "doc://DoccIssue/documentation/DoccIssue/FixedCollection/BidirectionalCollection-Implementations",
+        "doc://DoccIssue/documentation/DoccIssue/FixedCollection/Collection-Implementations",
+        "doc://DoccIssue/documentation/DoccIssue/FixedCollection/Sequence-Implementations"
+      ],
+      "title": "Default Implementations"
+    }
+  ],
+  "variants": [
+    {
+      "paths": [
+        "/documentation/doccissue/fixedcollection"
+      ],
+      "traits": [
+        {
+          "interfaceLanguage": "swift"
+        }
+      ]
+    }
+  ]
+}

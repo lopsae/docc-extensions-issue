@@ -1,25 +1,38 @@
 {
+  "abstract": [
+    {
+      "text": "Inherited from ",
+      "type": "text"
+    },
+    {
+      "code": "Collection.prefix(upTo:)",
+      "type": "codeVoice"
+    },
+    {
+      "text": ".",
+      "type": "text"
+    }
+  ],
   "hierarchy": {
     "paths": [
       [
         "doc://DoccIssue/documentation/DoccIssue",
-        "doc://DoccIssue/documentation/DoccIssue/Swift",
-        "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection"
+        "doc://DoccIssue/documentation/DoccIssue/FixedCollection"
       ]
     ]
   },
   "identifier": {
     "interfaceLanguage": "swift",
-    "url": "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection/finalIndex"
+    "url": "doc://DoccIssue/documentation/DoccIssue/FixedCollection/prefix(upTo:)"
   },
   "kind": "symbol",
   "metadata": {
     "extendedModule": "Swift",
-    "externalID": "s:SK9DoccIssueE10finalIndex0D0Qzvp",
+    "externalID": "s:SlsE6prefix4upTo11SubSequenceQz5IndexQz_tF::SYNTHESIZED::s:9DoccIssue15FixedCollectionV",
     "fragments": [
       {
         "kind": "keyword",
-        "text": "var"
+        "text": "func"
       },
       {
         "kind": "text",
@@ -27,7 +40,15 @@
       },
       {
         "kind": "identifier",
-        "text": "finalIndex"
+        "text": "prefix"
+      },
+      {
+        "kind": "text",
+        "text": "("
+      },
+      {
+        "kind": "externalParam",
+        "text": "upTo"
       },
       {
         "kind": "text",
@@ -45,6 +66,23 @@
         "kind": "typeIdentifier",
         "preciseIdentifier": "s:Sl5IndexQa",
         "text": "Index"
+      },
+      {
+        "kind": "text",
+        "text": ") -> "
+      },
+      {
+        "kind": "typeIdentifier",
+        "text": "Self"
+      },
+      {
+        "kind": "text",
+        "text": "."
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:Sl11SubSequenceQa",
+        "text": "SubSequence"
       }
     ],
     "modules": [
@@ -56,9 +94,9 @@
       }
     ],
     "role": "symbol",
-    "roleHeading": "Instance Property",
-    "symbolKind": "property",
-    "title": "finalIndex"
+    "roleHeading": "Instance Method",
+    "symbolKind": "method",
+    "title": "prefix(upTo:)"
   },
   "primaryContentSections": [
     {
@@ -73,7 +111,7 @@
           "tokens": [
             {
               "kind": "keyword",
-              "text": "var"
+              "text": "func"
             },
             {
               "kind": "text",
@@ -81,7 +119,23 @@
             },
             {
               "kind": "identifier",
-              "text": "finalIndex"
+              "text": "prefix"
+            },
+            {
+              "kind": "text",
+              "text": "("
+            },
+            {
+              "kind": "externalParam",
+              "text": "upTo"
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "internalParam",
+              "text": "end"
             },
             {
               "kind": "text",
@@ -102,15 +156,20 @@
             },
             {
               "kind": "text",
-              "text": " { "
+              "text": ") -> "
             },
             {
-              "kind": "keyword",
-              "text": "get"
+              "kind": "typeIdentifier",
+              "text": "Self"
             },
             {
               "kind": "text",
-              "text": " }"
+              "text": "."
+            },
+            {
+              "kind": "typeIdentifier",
+              "preciseIdentifier": "s:Sl11SubSequenceQa",
+              "text": "SubSequence"
             }
           ]
         }
@@ -128,21 +187,12 @@
       "type": "topic",
       "url": "/documentation/doccissue"
     },
-    "doc://DoccIssue/documentation/DoccIssue/Swift": {
-      "abstract": [],
-      "identifier": "doc://DoccIssue/documentation/DoccIssue/Swift",
-      "kind": "symbol",
-      "role": "collection",
-      "title": "Swift",
-      "type": "topic",
-      "url": "/documentation/doccissue/swift"
-    },
-    "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection": {
+    "doc://DoccIssue/documentation/DoccIssue/FixedCollection": {
       "abstract": [],
       "fragments": [
         {
           "kind": "keyword",
-          "text": "extension"
+          "text": "struct"
         },
         {
           "kind": "text",
@@ -150,29 +200,28 @@
         },
         {
           "kind": "identifier",
-          "preciseIdentifier": "s:SK",
-          "text": "BidirectionalCollection"
+          "text": "FixedCollection"
         }
       ],
-      "identifier": "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection",
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/FixedCollection",
       "kind": "symbol",
       "navigatorTitle": [
         {
           "kind": "identifier",
-          "text": "BidirectionalCollection"
+          "text": "FixedCollection"
         }
       ],
       "role": "symbol",
-      "title": "BidirectionalCollection",
+      "title": "FixedCollection",
       "type": "topic",
-      "url": "/documentation/doccissue/swift/bidirectionalcollection"
+      "url": "/documentation/doccissue/fixedcollection"
     },
-    "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection/finalIndex": {
+    "doc://DoccIssue/documentation/DoccIssue/FixedCollection/prefix(upTo:)": {
       "abstract": [],
       "fragments": [
         {
           "kind": "keyword",
-          "text": "var"
+          "text": "func"
         },
         {
           "kind": "text",
@@ -180,7 +229,15 @@
         },
         {
           "kind": "identifier",
-          "text": "finalIndex"
+          "text": "prefix"
+        },
+        {
+          "kind": "text",
+          "text": "("
+        },
+        {
+          "kind": "externalParam",
+          "text": "upTo"
         },
         {
           "kind": "text",
@@ -198,14 +255,31 @@
           "kind": "typeIdentifier",
           "preciseIdentifier": "s:Sl5IndexQa",
           "text": "Index"
+        },
+        {
+          "kind": "text",
+          "text": ") -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sl11SubSequenceQa",
+          "text": "SubSequence"
         }
       ],
-      "identifier": "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection/finalIndex",
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/FixedCollection/prefix(upTo:)",
       "kind": "symbol",
       "role": "symbol",
-      "title": "finalIndex",
+      "title": "prefix(upTo:)",
       "type": "topic",
-      "url": "/documentation/doccissue/swift/bidirectionalcollection/finalindex"
+      "url": "/documentation/doccissue/fixedcollection/prefix(upto:)"
     }
   },
   "schemaVersion": {
@@ -217,7 +291,7 @@
   "variants": [
     {
       "paths": [
-        "/documentation/doccissue/swift/bidirectionalcollection/finalindex"
+        "/documentation/doccissue/fixedcollection/prefix(upto:)"
       ],
       "traits": [
         {

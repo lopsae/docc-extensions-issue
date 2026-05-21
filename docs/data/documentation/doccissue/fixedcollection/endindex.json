@@ -1,21 +1,33 @@
 {
+  "abstract": [
+    {
+      "text": "Inherited from ",
+      "type": "text"
+    },
+    {
+      "code": "Collection.endIndex",
+      "type": "codeVoice"
+    },
+    {
+      "text": ".",
+      "type": "text"
+    }
+  ],
   "hierarchy": {
     "paths": [
       [
         "doc://DoccIssue/documentation/DoccIssue",
-        "doc://DoccIssue/documentation/DoccIssue/Swift",
-        "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection"
+        "doc://DoccIssue/documentation/DoccIssue/FixedCollection"
       ]
     ]
   },
   "identifier": {
     "interfaceLanguage": "swift",
-    "url": "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection/finalIndex"
+    "url": "doc://DoccIssue/documentation/DoccIssue/FixedCollection/endIndex"
   },
   "kind": "symbol",
   "metadata": {
-    "extendedModule": "Swift",
-    "externalID": "s:SK9DoccIssueE10finalIndex0D0Qzvp",
+    "externalID": "s:9DoccIssue15FixedCollectionV8endIndexSivp",
     "fragments": [
       {
         "kind": "keyword",
@@ -27,7 +39,7 @@
       },
       {
         "kind": "identifier",
-        "text": "finalIndex"
+        "text": "endIndex"
       },
       {
         "kind": "text",
@@ -35,7 +47,8 @@
       },
       {
         "kind": "typeIdentifier",
-        "text": "Self"
+        "preciseIdentifier": "s:9DoccIssue15FixedCollectionV",
+        "text": "FixedCollection"
       },
       {
         "kind": "text",
@@ -43,22 +56,19 @@
       },
       {
         "kind": "typeIdentifier",
-        "preciseIdentifier": "s:Sl5IndexQa",
+        "preciseIdentifier": "s:9DoccIssue15FixedCollectionV5Indexa",
         "text": "Index"
       }
     ],
     "modules": [
       {
-        "name": "DoccIssue",
-        "relatedModules": [
-          "Swift"
-        ]
+        "name": "DoccIssue"
       }
     ],
     "role": "symbol",
     "roleHeading": "Instance Property",
     "symbolKind": "property",
-    "title": "finalIndex"
+    "title": "endIndex"
   },
   "primaryContentSections": [
     {
@@ -81,23 +91,26 @@
             },
             {
               "kind": "identifier",
-              "text": "finalIndex"
+              "text": "endIndex"
             },
             {
               "kind": "text",
               "text": ": "
             },
             {
+              "identifier": "doc://DoccIssue/documentation/DoccIssue/FixedCollection",
               "kind": "typeIdentifier",
-              "text": "Self"
+              "preciseIdentifier": "s:9DoccIssue15FixedCollectionV",
+              "text": "FixedCollection"
             },
             {
               "kind": "text",
               "text": "."
             },
             {
+              "identifier": "doc://DoccIssue/documentation/DoccIssue/FixedCollection/Index",
               "kind": "typeIdentifier",
-              "preciseIdentifier": "s:Sl5IndexQa",
+              "preciseIdentifier": "s:9DoccIssue15FixedCollectionV5Indexa",
               "text": "Index"
             },
             {
@@ -128,21 +141,12 @@
       "type": "topic",
       "url": "/documentation/doccissue"
     },
-    "doc://DoccIssue/documentation/DoccIssue/Swift": {
-      "abstract": [],
-      "identifier": "doc://DoccIssue/documentation/DoccIssue/Swift",
-      "kind": "symbol",
-      "role": "collection",
-      "title": "Swift",
-      "type": "topic",
-      "url": "/documentation/doccissue/swift"
-    },
-    "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection": {
+    "doc://DoccIssue/documentation/DoccIssue/FixedCollection": {
       "abstract": [],
       "fragments": [
         {
           "kind": "keyword",
-          "text": "extension"
+          "text": "struct"
         },
         {
           "kind": "text",
@@ -150,24 +154,52 @@
         },
         {
           "kind": "identifier",
-          "preciseIdentifier": "s:SK",
-          "text": "BidirectionalCollection"
+          "text": "FixedCollection"
         }
       ],
-      "identifier": "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection",
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/FixedCollection",
       "kind": "symbol",
       "navigatorTitle": [
         {
           "kind": "identifier",
-          "text": "BidirectionalCollection"
+          "text": "FixedCollection"
         }
       ],
       "role": "symbol",
-      "title": "BidirectionalCollection",
+      "title": "FixedCollection",
       "type": "topic",
-      "url": "/documentation/doccissue/swift/bidirectionalcollection"
+      "url": "/documentation/doccissue/fixedcollection"
     },
-    "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection/finalIndex": {
+    "doc://DoccIssue/documentation/DoccIssue/FixedCollection/Index": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "typealias"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "Index"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/FixedCollection/Index",
+      "kind": "symbol",
+      "navigatorTitle": [
+        {
+          "kind": "identifier",
+          "text": "Index"
+        }
+      ],
+      "role": "symbol",
+      "title": "FixedCollection.Index",
+      "type": "topic",
+      "url": "/documentation/doccissue/fixedcollection/index"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/FixedCollection/endIndex": {
       "abstract": [],
       "fragments": [
         {
@@ -180,7 +212,7 @@
         },
         {
           "kind": "identifier",
-          "text": "finalIndex"
+          "text": "endIndex"
         },
         {
           "kind": "text",
@@ -188,7 +220,8 @@
         },
         {
           "kind": "typeIdentifier",
-          "text": "Self"
+          "preciseIdentifier": "s:9DoccIssue15FixedCollectionV",
+          "text": "FixedCollection"
         },
         {
           "kind": "text",
@@ -196,16 +229,16 @@
         },
         {
           "kind": "typeIdentifier",
-          "preciseIdentifier": "s:Sl5IndexQa",
+          "preciseIdentifier": "s:9DoccIssue15FixedCollectionV5Indexa",
           "text": "Index"
         }
       ],
-      "identifier": "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection/finalIndex",
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/FixedCollection/endIndex",
       "kind": "symbol",
       "role": "symbol",
-      "title": "finalIndex",
+      "title": "endIndex",
       "type": "topic",
-      "url": "/documentation/doccissue/swift/bidirectionalcollection/finalindex"
+      "url": "/documentation/doccissue/fixedcollection/endindex"
     }
   },
   "schemaVersion": {
@@ -217,7 +250,7 @@
   "variants": [
     {
       "paths": [
-        "/documentation/doccissue/swift/bidirectionalcollection/finalindex"
+        "/documentation/doccissue/fixedcollection/endindex"
       ],
       "traits": [
         {
