@@ -1,0 +1,2827 @@
+{
+  "hierarchy": {
+    "paths": [
+      [
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection"
+      ]
+    ]
+  },
+  "identifier": {
+    "interfaceLanguage": "swift",
+    "url": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/Sequence-Implementations"
+  },
+  "kind": "article",
+  "metadata": {
+    "modules": [
+      {
+        "name": "DoccExtensionsIssue"
+      }
+    ],
+    "role": "collectionGroup",
+    "roleHeading": "API Collection",
+    "title": "Sequence Implementations"
+  },
+  "references": {
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue": {
+      "abstract": [],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue",
+      "kind": "symbol",
+      "role": "collection",
+      "title": "DoccExtensionsIssue",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "struct"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "FixedCollection"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection",
+      "kind": "symbol",
+      "navigatorTitle": [
+        {
+          "kind": "identifier",
+          "text": "FixedCollection"
+        }
+      ],
+      "role": "symbol",
+      "title": "FixedCollection",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/allSatisfy(_:)": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "allSatisfy"
+        },
+        {
+          "kind": "text",
+          "text": "(("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "throws"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sb",
+          "text": "Bool"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "rethrows"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sb",
+          "text": "Bool"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/allSatisfy(_:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "allSatisfy(_:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/allsatisfy(_:)"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/compactMap(_:)": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "compactMap"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "genericParameter",
+          "text": "ElementOfResult"
+        },
+        {
+          "kind": "text",
+          "text": ">(("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "throws"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "ElementOfResult"
+        },
+        {
+          "kind": "text",
+          "text": "?) "
+        },
+        {
+          "kind": "keyword",
+          "text": "rethrows"
+        },
+        {
+          "kind": "text",
+          "text": " -> ["
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "ElementOfResult"
+        },
+        {
+          "kind": "text",
+          "text": "]"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/compactMap(_:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "compactMap(_:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/compactmap(_:)"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/contains(_:)": {
+      "abstract": [],
+      "conformance": {
+        "availabilityPrefix": [
+          {
+            "text": "Available when",
+            "type": "text"
+          }
+        ],
+        "conformancePrefix": [
+          {
+            "text": "Conforms when",
+            "type": "text"
+          }
+        ],
+        "constraints": [
+          {
+            "code": "Element",
+            "type": "codeVoice"
+          },
+          {
+            "text": " conforms to ",
+            "type": "text"
+          },
+          {
+            "code": "Equatable",
+            "type": "codeVoice"
+          },
+          {
+            "text": ".",
+            "type": "text"
+          }
+        ]
+      },
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "contains"
+        },
+        {
+          "kind": "text",
+          "text": "("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ") -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sb",
+          "text": "Bool"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/contains(_:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "contains(_:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/contains(_:)"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/contains(where:)": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "contains"
+        },
+        {
+          "kind": "text",
+          "text": "("
+        },
+        {
+          "kind": "externalParam",
+          "text": "where"
+        },
+        {
+          "kind": "text",
+          "text": ": ("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "throws"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sb",
+          "text": "Bool"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "rethrows"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sb",
+          "text": "Bool"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/contains(where:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "contains(where:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/contains(where:)"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/count(where:)": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "count"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "genericParameter",
+          "text": "E"
+        },
+        {
+          "kind": "text",
+          "text": ">("
+        },
+        {
+          "kind": "externalParam",
+          "text": "where"
+        },
+        {
+          "kind": "text",
+          "text": ": ("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "throws"
+        },
+        {
+          "kind": "text",
+          "text": "("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "E"
+        },
+        {
+          "kind": "text",
+          "text": ") -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sb",
+          "text": "Bool"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "throws"
+        },
+        {
+          "kind": "text",
+          "text": "("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "E"
+        },
+        {
+          "kind": "text",
+          "text": ") -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Si",
+          "text": "Int"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/count(where:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "count(where:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/count(where:)"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/elementsEqual(_:)": {
+      "abstract": [],
+      "conformance": {
+        "availabilityPrefix": [
+          {
+            "text": "Available when",
+            "type": "text"
+          }
+        ],
+        "conformancePrefix": [
+          {
+            "text": "Conforms when",
+            "type": "text"
+          }
+        ],
+        "constraints": [
+          {
+            "code": "Element",
+            "type": "codeVoice"
+          },
+          {
+            "text": " conforms to ",
+            "type": "text"
+          },
+          {
+            "code": "Equatable",
+            "type": "codeVoice"
+          },
+          {
+            "text": ".",
+            "type": "text"
+          }
+        ]
+      },
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "elementsEqual"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "genericParameter",
+          "text": "OtherSequence"
+        },
+        {
+          "kind": "text",
+          "text": ">("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "OtherSequence"
+        },
+        {
+          "kind": "text",
+          "text": ") -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sb",
+          "text": "Bool"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/elementsEqual(_:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "elementsEqual(_:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/elementsequal(_:)"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/elementsEqual(_:by:)": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "elementsEqual"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "genericParameter",
+          "text": "OtherSequence"
+        },
+        {
+          "kind": "text",
+          "text": ">("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "OtherSequence"
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "externalParam",
+          "text": "by"
+        },
+        {
+          "kind": "text",
+          "text": ": ("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "OtherSequence"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "throws"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sb",
+          "text": "Bool"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "rethrows"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sb",
+          "text": "Bool"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/elementsEqual(_:by:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "elementsEqual(_:by:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/elementsequal(_:by:)"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/enumerated()": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "enumerated"
+        },
+        {
+          "kind": "text",
+          "text": "() -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:s18EnumeratedSequenceV",
+          "text": "EnumeratedSequence"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": ">"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/enumerated()",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "enumerated()",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/enumerated()"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/filter(_:)": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "filter"
+        },
+        {
+          "kind": "text",
+          "text": "(("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "throws"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sb",
+          "text": "Bool"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "rethrows"
+        },
+        {
+          "kind": "text",
+          "text": " -> ["
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": "]"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/filter(_:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "filter(_:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/filter(_:)"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/first(where:)": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "first"
+        },
+        {
+          "kind": "text",
+          "text": "("
+        },
+        {
+          "kind": "externalParam",
+          "text": "where"
+        },
+        {
+          "kind": "text",
+          "text": ": ("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "throws"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sb",
+          "text": "Bool"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "rethrows"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": "?"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/first(where:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "first(where:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/first(where:)"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/flatMap(_:)-248ic": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "flatMap"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "genericParameter",
+          "text": "SegmentOfResult"
+        },
+        {
+          "kind": "text",
+          "text": ">(("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "throws"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "SegmentOfResult"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "rethrows"
+        },
+        {
+          "kind": "text",
+          "text": " -> ["
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "SegmentOfResult"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": "]"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/flatMap(_:)-248ic",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "flatMap(_:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/flatmap(_:)-248ic"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/flatMap(_:)-4na65": {
+      "abstract": [],
+      "deprecated": true,
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "flatMap"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "genericParameter",
+          "text": "ElementOfResult"
+        },
+        {
+          "kind": "text",
+          "text": ">(("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "throws"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "ElementOfResult"
+        },
+        {
+          "kind": "text",
+          "text": "?) "
+        },
+        {
+          "kind": "keyword",
+          "text": "rethrows"
+        },
+        {
+          "kind": "text",
+          "text": " -> ["
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "ElementOfResult"
+        },
+        {
+          "kind": "text",
+          "text": "]"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/flatMap(_:)-4na65",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "flatMap(_:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/flatmap(_:)-4na65"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/forEach(_:)": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "forEach"
+        },
+        {
+          "kind": "text",
+          "text": "(("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "throws"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:s4Voida",
+          "text": "Void"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "rethrows"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/forEach(_:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "forEach(_:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/foreach(_:)"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/joined()": {
+      "abstract": [],
+      "conformance": {
+        "availabilityPrefix": [
+          {
+            "text": "Available when",
+            "type": "text"
+          }
+        ],
+        "conformancePrefix": [
+          {
+            "text": "Conforms when",
+            "type": "text"
+          }
+        ],
+        "constraints": [
+          {
+            "code": "Element",
+            "type": "codeVoice"
+          },
+          {
+            "text": " conforms to ",
+            "type": "text"
+          },
+          {
+            "code": "Sequence",
+            "type": "codeVoice"
+          },
+          {
+            "text": ".",
+            "type": "text"
+          }
+        ]
+      },
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "joined"
+        },
+        {
+          "kind": "text",
+          "text": "() -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:s15FlattenSequenceV",
+          "text": "FlattenSequence"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": ">"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/joined()",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "joined()",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/joined()"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/lazy": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "var"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "lazy"
+        },
+        {
+          "kind": "text",
+          "text": ": "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:s12LazySequenceV",
+          "text": "LazySequence"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": ">"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/lazy",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "lazy",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/lazy"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/lexicographicallyPrecedes(_:)": {
+      "abstract": [],
+      "conformance": {
+        "availabilityPrefix": [
+          {
+            "text": "Available when",
+            "type": "text"
+          }
+        ],
+        "conformancePrefix": [
+          {
+            "text": "Conforms when",
+            "type": "text"
+          }
+        ],
+        "constraints": [
+          {
+            "code": "Element",
+            "type": "codeVoice"
+          },
+          {
+            "text": " conforms to ",
+            "type": "text"
+          },
+          {
+            "code": "Comparable",
+            "type": "codeVoice"
+          },
+          {
+            "text": ".",
+            "type": "text"
+          }
+        ]
+      },
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "lexicographicallyPrecedes"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "genericParameter",
+          "text": "OtherSequence"
+        },
+        {
+          "kind": "text",
+          "text": ">("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "OtherSequence"
+        },
+        {
+          "kind": "text",
+          "text": ") -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sb",
+          "text": "Bool"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/lexicographicallyPrecedes(_:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "lexicographicallyPrecedes(_:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/lexicographicallyprecedes(_:)"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/lexicographicallyPrecedes(_:by:)": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "lexicographicallyPrecedes"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "genericParameter",
+          "text": "OtherSequence"
+        },
+        {
+          "kind": "text",
+          "text": ">("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "OtherSequence"
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "externalParam",
+          "text": "by"
+        },
+        {
+          "kind": "text",
+          "text": ": ("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "throws"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sb",
+          "text": "Bool"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "rethrows"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sb",
+          "text": "Bool"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/lexicographicallyPrecedes(_:by:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "lexicographicallyPrecedes(_:by:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/lexicographicallyprecedes(_:by:)"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/map(_:)-21lkr": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "map"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "genericParameter",
+          "text": "T"
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "genericParameter",
+          "text": "E"
+        },
+        {
+          "kind": "text",
+          "text": ">(("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "throws"
+        },
+        {
+          "kind": "text",
+          "text": "("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "E"
+        },
+        {
+          "kind": "text",
+          "text": ") -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "T"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "throws"
+        },
+        {
+          "kind": "text",
+          "text": "("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "E"
+        },
+        {
+          "kind": "text",
+          "text": ") -> ["
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "T"
+        },
+        {
+          "kind": "text",
+          "text": "]"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/map(_:)-21lkr",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "map(_:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/map(_:)-21lkr"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/max()": {
+      "abstract": [],
+      "conformance": {
+        "availabilityPrefix": [
+          {
+            "text": "Available when",
+            "type": "text"
+          }
+        ],
+        "conformancePrefix": [
+          {
+            "text": "Conforms when",
+            "type": "text"
+          }
+        ],
+        "constraints": [
+          {
+            "code": "Element",
+            "type": "codeVoice"
+          },
+          {
+            "text": " conforms to ",
+            "type": "text"
+          },
+          {
+            "code": "Comparable",
+            "type": "codeVoice"
+          },
+          {
+            "text": ".",
+            "type": "text"
+          }
+        ]
+      },
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "max"
+        },
+        {
+          "kind": "text",
+          "text": "() -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": "?"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/max()",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "max()",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/max()"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/max(by:)": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "max"
+        },
+        {
+          "kind": "text",
+          "text": "("
+        },
+        {
+          "kind": "externalParam",
+          "text": "by"
+        },
+        {
+          "kind": "text",
+          "text": ": ("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "throws"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sb",
+          "text": "Bool"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "rethrows"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": "?"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/max(by:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "max(by:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/max(by:)"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/min()": {
+      "abstract": [],
+      "conformance": {
+        "availabilityPrefix": [
+          {
+            "text": "Available when",
+            "type": "text"
+          }
+        ],
+        "conformancePrefix": [
+          {
+            "text": "Conforms when",
+            "type": "text"
+          }
+        ],
+        "constraints": [
+          {
+            "code": "Element",
+            "type": "codeVoice"
+          },
+          {
+            "text": " conforms to ",
+            "type": "text"
+          },
+          {
+            "code": "Comparable",
+            "type": "codeVoice"
+          },
+          {
+            "text": ".",
+            "type": "text"
+          }
+        ]
+      },
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "min"
+        },
+        {
+          "kind": "text",
+          "text": "() -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": "?"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/min()",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "min()",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/min()"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/min(by:)": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "min"
+        },
+        {
+          "kind": "text",
+          "text": "("
+        },
+        {
+          "kind": "externalParam",
+          "text": "by"
+        },
+        {
+          "kind": "text",
+          "text": ": ("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "throws"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sb",
+          "text": "Bool"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "rethrows"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": "?"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/min(by:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "min(by:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/min(by:)"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/reduce(_:_:)": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "reduce"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "genericParameter",
+          "text": "Result"
+        },
+        {
+          "kind": "text",
+          "text": ">("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Result"
+        },
+        {
+          "kind": "text",
+          "text": ", ("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Result"
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "throws"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Result"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "rethrows"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Result"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/reduce(_:_:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "reduce(_:_:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/reduce(_:_:)"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/reduce(into:_:)": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "reduce"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "genericParameter",
+          "text": "Result"
+        },
+        {
+          "kind": "text",
+          "text": ">("
+        },
+        {
+          "kind": "externalParam",
+          "text": "into"
+        },
+        {
+          "kind": "text",
+          "text": ": "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Result"
+        },
+        {
+          "kind": "text",
+          "text": ", ("
+        },
+        {
+          "kind": "keyword",
+          "text": "inout"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Result"
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "throws"
+        },
+        {
+          "kind": "text",
+          "text": " -> ()) "
+        },
+        {
+          "kind": "keyword",
+          "text": "rethrows"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Result"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/reduce(into:_:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "reduce(into:_:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/reduce(into:_:)"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/shuffled()": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "shuffled"
+        },
+        {
+          "kind": "text",
+          "text": "() -> ["
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": "]"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/shuffled()",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "shuffled()",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/shuffled()"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/shuffled(using:)": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "shuffled"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "genericParameter",
+          "text": "T"
+        },
+        {
+          "kind": "text",
+          "text": ">("
+        },
+        {
+          "kind": "externalParam",
+          "text": "using"
+        },
+        {
+          "kind": "text",
+          "text": ": "
+        },
+        {
+          "kind": "keyword",
+          "text": "inout"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "T"
+        },
+        {
+          "kind": "text",
+          "text": ") -> ["
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": "]"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/shuffled(using:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "shuffled(using:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/shuffled(using:)"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/sorted()": {
+      "abstract": [],
+      "conformance": {
+        "availabilityPrefix": [
+          {
+            "text": "Available when",
+            "type": "text"
+          }
+        ],
+        "conformancePrefix": [
+          {
+            "text": "Conforms when",
+            "type": "text"
+          }
+        ],
+        "constraints": [
+          {
+            "code": "Element",
+            "type": "codeVoice"
+          },
+          {
+            "text": " conforms to ",
+            "type": "text"
+          },
+          {
+            "code": "Comparable",
+            "type": "codeVoice"
+          },
+          {
+            "text": ".",
+            "type": "text"
+          }
+        ]
+      },
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "sorted"
+        },
+        {
+          "kind": "text",
+          "text": "() -> ["
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": "]"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/sorted()",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "sorted()",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/sorted()"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/sorted(by:)": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "sorted"
+        },
+        {
+          "kind": "text",
+          "text": "("
+        },
+        {
+          "kind": "externalParam",
+          "text": "by"
+        },
+        {
+          "kind": "text",
+          "text": ": ("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "throws"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sb",
+          "text": "Bool"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "rethrows"
+        },
+        {
+          "kind": "text",
+          "text": " -> ["
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": "]"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/sorted(by:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "sorted(by:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/sorted(by:)"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/starts(with:)": {
+      "abstract": [],
+      "conformance": {
+        "availabilityPrefix": [
+          {
+            "text": "Available when",
+            "type": "text"
+          }
+        ],
+        "conformancePrefix": [
+          {
+            "text": "Conforms when",
+            "type": "text"
+          }
+        ],
+        "constraints": [
+          {
+            "code": "Element",
+            "type": "codeVoice"
+          },
+          {
+            "text": " conforms to ",
+            "type": "text"
+          },
+          {
+            "code": "Equatable",
+            "type": "codeVoice"
+          },
+          {
+            "text": ".",
+            "type": "text"
+          }
+        ]
+      },
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "starts"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "genericParameter",
+          "text": "PossiblePrefix"
+        },
+        {
+          "kind": "text",
+          "text": ">("
+        },
+        {
+          "kind": "externalParam",
+          "text": "with"
+        },
+        {
+          "kind": "text",
+          "text": ": "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "PossiblePrefix"
+        },
+        {
+          "kind": "text",
+          "text": ") -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sb",
+          "text": "Bool"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/starts(with:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "starts(with:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/starts(with:)"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/starts(with:by:)": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "starts"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "genericParameter",
+          "text": "PossiblePrefix"
+        },
+        {
+          "kind": "text",
+          "text": ">("
+        },
+        {
+          "kind": "externalParam",
+          "text": "with"
+        },
+        {
+          "kind": "text",
+          "text": ": "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "PossiblePrefix"
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "externalParam",
+          "text": "by"
+        },
+        {
+          "kind": "text",
+          "text": ": ("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "PossiblePrefix"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "throws"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sb",
+          "text": "Bool"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "rethrows"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sb",
+          "text": "Bool"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/starts(with:by:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "starts(with:by:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/starts(with:by:)"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/withContiguousStorageIfAvailable(_:)": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "withContiguousStorageIfAvailable"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "genericParameter",
+          "text": "R"
+        },
+        {
+          "kind": "text",
+          "text": ">(("
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:SR",
+          "text": "UnsafeBufferPointer"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ">) "
+        },
+        {
+          "kind": "keyword",
+          "text": "throws"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "R"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "rethrows"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "R"
+        },
+        {
+          "kind": "text",
+          "text": "?"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/withContiguousStorageIfAvailable(_:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "withContiguousStorageIfAvailable(_:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/withcontiguousstorageifavailable(_:)"
+    }
+  },
+  "schemaVersion": {
+    "major": 0,
+    "minor": 3,
+    "patch": 0
+  },
+  "sections": [],
+  "topicSections": [
+    {
+      "anchor": "Instance-Properties",
+      "generated": true,
+      "identifiers": [
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/lazy"
+      ],
+      "title": "Instance Properties"
+    },
+    {
+      "anchor": "Instance-Methods",
+      "generated": true,
+      "identifiers": [
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/allSatisfy(_:)",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/compactMap(_:)",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/contains(_:)",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/contains(where:)",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/count(where:)",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/elementsEqual(_:)",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/elementsEqual(_:by:)",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/enumerated()",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/filter(_:)",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/first(where:)",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/flatMap(_:)-248ic",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/flatMap(_:)-4na65",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/forEach(_:)",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/joined()",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/lexicographicallyPrecedes(_:)",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/lexicographicallyPrecedes(_:by:)",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/map(_:)-21lkr",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/max()",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/max(by:)",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/min()",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/min(by:)",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/reduce(_:_:)",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/reduce(into:_:)",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/shuffled()",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/shuffled(using:)",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/sorted()",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/sorted(by:)",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/starts(with:)",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/starts(with:by:)",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/withContiguousStorageIfAvailable(_:)"
+      ],
+      "title": "Instance Methods"
+    }
+  ],
+  "variants": [
+    {
+      "paths": [
+        "/documentation/doccextensionsissue/fixedcollection/sequence-implementations"
+      ],
+      "traits": [
+        {
+          "interfaceLanguage": "swift"
+        }
+      ]
+    }
+  ]
+}

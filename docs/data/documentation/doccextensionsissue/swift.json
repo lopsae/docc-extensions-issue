@@ -1,0 +1,104 @@
+{
+  "hierarchy": {
+    "paths": [
+      [
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue"
+      ]
+    ]
+  },
+  "identifier": {
+    "interfaceLanguage": "swift",
+    "url": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/Swift"
+  },
+  "kind": "symbol",
+  "metadata": {
+    "externalID": "s:m:s:e:s:SK19DoccExtensionsIssueE10finalIndex0E0Qzvp",
+    "modules": [
+      {
+        "name": "DoccExtensionsIssue"
+      }
+    ],
+    "role": "collection",
+    "roleHeading": "Extended Module",
+    "symbolKind": "extension",
+    "title": "Swift"
+  },
+  "references": {
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue": {
+      "abstract": [],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue",
+      "kind": "symbol",
+      "role": "collection",
+      "title": "DoccExtensionsIssue",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/Swift": {
+      "abstract": [],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/Swift",
+      "kind": "symbol",
+      "role": "collection",
+      "title": "Swift",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/swift"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/Swift/BidirectionalCollection": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "extension"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "preciseIdentifier": "s:SK",
+          "text": "BidirectionalCollection"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/Swift/BidirectionalCollection",
+      "kind": "symbol",
+      "navigatorTitle": [
+        {
+          "kind": "identifier",
+          "text": "BidirectionalCollection"
+        }
+      ],
+      "role": "symbol",
+      "title": "BidirectionalCollection",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/swift/bidirectionalcollection"
+    }
+  },
+  "schemaVersion": {
+    "major": 0,
+    "minor": 3,
+    "patch": 0
+  },
+  "sections": [],
+  "topicSections": [
+    {
+      "anchor": "Extended-Protocols",
+      "generated": true,
+      "identifiers": [
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/Swift/BidirectionalCollection"
+      ],
+      "title": "Extended Protocols"
+    }
+  ],
+  "variants": [
+    {
+      "paths": [
+        "/documentation/doccextensionsissue/swift"
+      ],
+      "traits": [
+        {
+          "interfaceLanguage": "swift"
+        }
+      ]
+    }
+  ]
+}

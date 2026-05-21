@@ -1,0 +1,133 @@
+{
+  "hierarchy": {
+    "paths": [
+      [
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection"
+      ]
+    ]
+  },
+  "identifier": {
+    "interfaceLanguage": "swift",
+    "url": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/BidirectionalCollection-Implementations"
+  },
+  "kind": "article",
+  "metadata": {
+    "modules": [
+      {
+        "name": "DoccExtensionsIssue"
+      }
+    ],
+    "role": "collectionGroup",
+    "roleHeading": "API Collection",
+    "title": "BidirectionalCollection Implementations"
+  },
+  "references": {
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue": {
+      "abstract": [],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue",
+      "kind": "symbol",
+      "role": "collection",
+      "title": "DoccExtensionsIssue",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "struct"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "FixedCollection"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection",
+      "kind": "symbol",
+      "navigatorTitle": [
+        {
+          "kind": "identifier",
+          "text": "FixedCollection"
+        }
+      ],
+      "role": "symbol",
+      "title": "FixedCollection",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/finalIndex": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "var"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "finalIndex"
+        },
+        {
+          "kind": "text",
+          "text": ": "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sl5IndexQa",
+          "text": "Index"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/finalIndex",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "finalIndex",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/finalindex"
+    }
+  },
+  "schemaVersion": {
+    "major": 0,
+    "minor": 3,
+    "patch": 0
+  },
+  "sections": [],
+  "topicSections": [
+    {
+      "anchor": "Instance-Properties",
+      "generated": true,
+      "identifiers": [
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/finalIndex"
+      ],
+      "title": "Instance Properties"
+    }
+  ],
+  "variants": [
+    {
+      "paths": [
+        "/documentation/doccextensionsissue/fixedcollection/bidirectionalcollection-implementations"
+      ],
+      "traits": [
+        {
+          "interfaceLanguage": "swift"
+        }
+      ]
+    }
+  ]
+}

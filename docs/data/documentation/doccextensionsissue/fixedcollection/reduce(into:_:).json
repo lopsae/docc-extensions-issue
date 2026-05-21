@@ -1,0 +1,436 @@
+{
+  "abstract": [
+    {
+      "text": "Inherited from ",
+      "type": "text"
+    },
+    {
+      "code": "Sequence.reduce(into:_:)",
+      "type": "codeVoice"
+    },
+    {
+      "text": ".",
+      "type": "text"
+    }
+  ],
+  "hierarchy": {
+    "paths": [
+      [
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue",
+        "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection"
+      ]
+    ]
+  },
+  "identifier": {
+    "interfaceLanguage": "swift",
+    "url": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/reduce(into:_:)"
+  },
+  "kind": "symbol",
+  "metadata": {
+    "extendedModule": "Swift",
+    "externalID": "s:STsE6reduce4into_qd__qd__n_yqd__z_7ElementQztKXEtKlF::SYNTHESIZED::s:19DoccExtensionsIssue15FixedCollectionV",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "func"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "reduce"
+      },
+      {
+        "kind": "text",
+        "text": "<"
+      },
+      {
+        "kind": "genericParameter",
+        "text": "Result"
+      },
+      {
+        "kind": "text",
+        "text": ">("
+      },
+      {
+        "kind": "externalParam",
+        "text": "into"
+      },
+      {
+        "kind": "text",
+        "text": ": "
+      },
+      {
+        "kind": "typeIdentifier",
+        "text": "Result"
+      },
+      {
+        "kind": "text",
+        "text": ", ("
+      },
+      {
+        "kind": "keyword",
+        "text": "inout"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "typeIdentifier",
+        "text": "Result"
+      },
+      {
+        "kind": "text",
+        "text": ", "
+      },
+      {
+        "kind": "typeIdentifier",
+        "text": "Self"
+      },
+      {
+        "kind": "text",
+        "text": "."
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:ST7ElementQa",
+        "text": "Element"
+      },
+      {
+        "kind": "text",
+        "text": ") "
+      },
+      {
+        "kind": "keyword",
+        "text": "throws"
+      },
+      {
+        "kind": "text",
+        "text": " -> ()) "
+      },
+      {
+        "kind": "keyword",
+        "text": "rethrows"
+      },
+      {
+        "kind": "text",
+        "text": " -> "
+      },
+      {
+        "kind": "typeIdentifier",
+        "text": "Result"
+      }
+    ],
+    "modules": [
+      {
+        "name": "DoccExtensionsIssue",
+        "relatedModules": [
+          "Swift"
+        ]
+      }
+    ],
+    "role": "symbol",
+    "roleHeading": "Instance Method",
+    "symbolKind": "method",
+    "title": "reduce(into:_:)"
+  },
+  "primaryContentSections": [
+    {
+      "declarations": [
+        {
+          "languages": [
+            "swift"
+          ],
+          "platforms": [
+            "macOS"
+          ],
+          "tokens": [
+            {
+              "kind": "keyword",
+              "text": "func"
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "identifier",
+              "text": "reduce"
+            },
+            {
+              "kind": "text",
+              "text": "<"
+            },
+            {
+              "kind": "genericParameter",
+              "text": "Result"
+            },
+            {
+              "kind": "text",
+              "text": ">("
+            },
+            {
+              "kind": "externalParam",
+              "text": "into"
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "internalParam",
+              "text": "initialResult"
+            },
+            {
+              "kind": "text",
+              "text": ": "
+            },
+            {
+              "kind": "typeIdentifier",
+              "text": "Result"
+            },
+            {
+              "kind": "text",
+              "text": ", "
+            },
+            {
+              "kind": "externalParam",
+              "text": "_"
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "internalParam",
+              "text": "updateAccumulatingResult"
+            },
+            {
+              "kind": "text",
+              "text": ": ("
+            },
+            {
+              "kind": "keyword",
+              "text": "inout"
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "typeIdentifier",
+              "text": "Result"
+            },
+            {
+              "kind": "text",
+              "text": ", "
+            },
+            {
+              "kind": "typeIdentifier",
+              "text": "Self"
+            },
+            {
+              "kind": "text",
+              "text": "."
+            },
+            {
+              "kind": "typeIdentifier",
+              "preciseIdentifier": "s:ST7ElementQa",
+              "text": "Element"
+            },
+            {
+              "kind": "text",
+              "text": ") "
+            },
+            {
+              "kind": "keyword",
+              "text": "throws"
+            },
+            {
+              "kind": "text",
+              "text": " -> ()) "
+            },
+            {
+              "kind": "keyword",
+              "text": "rethrows"
+            },
+            {
+              "kind": "text",
+              "text": " -> "
+            },
+            {
+              "kind": "typeIdentifier",
+              "text": "Result"
+            }
+          ]
+        }
+      ],
+      "kind": "declarations"
+    }
+  ],
+  "references": {
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue": {
+      "abstract": [],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue",
+      "kind": "symbol",
+      "role": "collection",
+      "title": "DoccExtensionsIssue",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "struct"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "FixedCollection"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection",
+      "kind": "symbol",
+      "navigatorTitle": [
+        {
+          "kind": "identifier",
+          "text": "FixedCollection"
+        }
+      ],
+      "role": "symbol",
+      "title": "FixedCollection",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection"
+    },
+    "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/reduce(into:_:)": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "reduce"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "genericParameter",
+          "text": "Result"
+        },
+        {
+          "kind": "text",
+          "text": ">("
+        },
+        {
+          "kind": "externalParam",
+          "text": "into"
+        },
+        {
+          "kind": "text",
+          "text": ": "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Result"
+        },
+        {
+          "kind": "text",
+          "text": ", ("
+        },
+        {
+          "kind": "keyword",
+          "text": "inout"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Result"
+        },
+        {
+          "kind": "text",
+          "text": ", "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:ST7ElementQa",
+          "text": "Element"
+        },
+        {
+          "kind": "text",
+          "text": ") "
+        },
+        {
+          "kind": "keyword",
+          "text": "throws"
+        },
+        {
+          "kind": "text",
+          "text": " -> ()) "
+        },
+        {
+          "kind": "keyword",
+          "text": "rethrows"
+        },
+        {
+          "kind": "text",
+          "text": " -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Result"
+        }
+      ],
+      "identifier": "doc://DoccExtensionsIssue/documentation/DoccExtensionsIssue/FixedCollection/reduce(into:_:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "reduce(into:_:)",
+      "type": "topic",
+      "url": "/documentation/doccextensionsissue/fixedcollection/reduce(into:_:)"
+    }
+  },
+  "schemaVersion": {
+    "major": 0,
+    "minor": 3,
+    "patch": 0
+  },
+  "sections": [],
+  "variants": [
+    {
+      "paths": [
+        "/documentation/doccextensionsissue/fixedcollection/reduce(into:_:)"
+      ],
+      "traits": [
+        {
+          "interfaceLanguage": "swift"
+        }
+      ]
+    }
+  ]
+}
