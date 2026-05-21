@@ -1,53 +1,35 @@
 //
-//  PreviewUtilities
-//  Created by Maic Lopez Saenz.
+//  DoccIssue
 //
 
 
-/// A collection view that pairs each index and element of an underlying collection.
-///
-/// To create an instance of `IndexedCollection`, call `indexed()` on a collection.
 nonisolated
-public struct IndexedCollection<Base: Collection>: Collection {
+public struct IndexedCollection: Collection {
 
-    public typealias Element = (index: Base.Index, element: Base.Element)
+    public typealias Index = Int
+    let fixed: [String] = ["one", "two", "three"]
 
-    let base: Base
+    public var startIndex: Index { fixed.startIndex }
+    public var endIndex: Index { fixed.endIndex }
 
-    public var startIndex: Base.Index { base.startIndex }
-    public var endIndex: Base.Index { base.endIndex }
-
-    public func index(after i: Base.Index) -> Base.Index {
-        base.index(after: i)
+    public func index(after i: Index) -> Index {
+        fixed.index(after: i)
     }
 
-    public subscript(position: Base.Index) -> Element {
-        return (index: position, element: base[position])
-    }
-
-}
-
-
-extension IndexedCollection: BidirectionalCollection where Base: BidirectionalCollection {
-
-    public func index(before i: Base.Index) -> Base.Index {
-        base.index(before: i)
+    public subscript(position: Index) -> String {
+        return fixed[position]
     }
 
 }
 
 
-extension IndexedCollection: RandomAccessCollection where Base: RandomAccessCollection {}
+extension IndexedCollection: BidirectionalCollection {
 
-
-// MARK: - Extension
-
-
-extension Collection {
-
-    nonisolated
-    public func indexed() -> IndexedCollection<Self> {
-        IndexedCollection(base: self)
+    public func index(before i: Index) -> Index {
+        fixed.index(before: i)
     }
 
 }
+
+
+extension IndexedCollection: RandomAccessCollection {}
