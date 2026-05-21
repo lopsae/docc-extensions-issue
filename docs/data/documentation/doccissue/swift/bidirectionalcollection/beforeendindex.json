@@ -1,0 +1,236 @@
+{
+  "hierarchy": {
+    "paths": [
+      [
+        "doc://DoccIssue/documentation/DoccIssue",
+        "doc://DoccIssue/documentation/DoccIssue/Swift",
+        "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection"
+      ]
+    ]
+  },
+  "identifier": {
+    "interfaceLanguage": "swift",
+    "url": "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection/beforeEndIndex"
+  },
+  "kind": "symbol",
+  "metadata": {
+    "extendedModule": "Swift",
+    "externalID": "s:SK9DoccIssueE14beforeEndIndex0E0Qzvp",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "var"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "beforeEndIndex"
+      },
+      {
+        "kind": "text",
+        "text": ": "
+      },
+      {
+        "kind": "typeIdentifier",
+        "text": "Self"
+      },
+      {
+        "kind": "text",
+        "text": "."
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:Sl5IndexQa",
+        "text": "Index"
+      }
+    ],
+    "modules": [
+      {
+        "name": "DoccIssue",
+        "relatedModules": [
+          "Swift"
+        ]
+      }
+    ],
+    "platforms": [],
+    "role": "symbol",
+    "roleHeading": "Instance Property",
+    "symbolKind": "property",
+    "title": "beforeEndIndex"
+  },
+  "primaryContentSections": [
+    {
+      "declarations": [
+        {
+          "languages": [
+            "swift"
+          ],
+          "platforms": [
+            "macOS"
+          ],
+          "tokens": [
+            {
+              "kind": "keyword",
+              "text": "var"
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "identifier",
+              "text": "beforeEndIndex"
+            },
+            {
+              "kind": "text",
+              "text": ": "
+            },
+            {
+              "kind": "typeIdentifier",
+              "text": "Self"
+            },
+            {
+              "kind": "text",
+              "text": "."
+            },
+            {
+              "kind": "typeIdentifier",
+              "preciseIdentifier": "s:Sl5IndexQa",
+              "text": "Index"
+            },
+            {
+              "kind": "text",
+              "text": " { "
+            },
+            {
+              "kind": "keyword",
+              "text": "get"
+            },
+            {
+              "kind": "text",
+              "text": " }"
+            }
+          ]
+        }
+      ],
+      "kind": "declarations"
+    }
+  ],
+  "references": {
+    "doc://DoccIssue/documentation/DoccIssue": {
+      "abstract": [
+        {
+          "text": "Repository to test issues found with swift-docc-plugin.",
+          "type": "text"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue",
+      "kind": "symbol",
+      "role": "collection",
+      "title": "DoccIssue",
+      "type": "topic",
+      "url": "/documentation/doccissue"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/Swift": {
+      "abstract": [],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/Swift",
+      "kind": "symbol",
+      "role": "collection",
+      "title": "Swift",
+      "type": "topic",
+      "url": "/documentation/doccissue/swift"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "extension"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "preciseIdentifier": "s:SK",
+          "text": "BidirectionalCollection"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection",
+      "kind": "symbol",
+      "navigatorTitle": [
+        {
+          "kind": "identifier",
+          "text": "BidirectionalCollection"
+        }
+      ],
+      "role": "symbol",
+      "title": "BidirectionalCollection",
+      "type": "topic",
+      "url": "/documentation/doccissue/swift/bidirectionalcollection"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection/beforeEndIndex": {
+      "abstract": [],
+      "deprecated": true,
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "var"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "beforeEndIndex"
+        },
+        {
+          "kind": "text",
+          "text": ": "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sl5IndexQa",
+          "text": "Index"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection/beforeEndIndex",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "beforeEndIndex",
+      "type": "topic",
+      "url": "/documentation/doccissue/swift/bidirectionalcollection/beforeendindex"
+    }
+  },
+  "schemaVersion": {
+    "major": 0,
+    "minor": 3,
+    "patch": 0
+  },
+  "sections": [],
+  "variants": [
+    {
+      "paths": [
+        "/documentation/doccissue/swift/bidirectionalcollection/beforeendindex"
+      ],
+      "traits": [
+        {
+          "interfaceLanguage": "swift"
+        }
+      ]
+    }
+  ]
+}

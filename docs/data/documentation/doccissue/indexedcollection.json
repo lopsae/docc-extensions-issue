@@ -1,0 +1,577 @@
+{
+  "abstract": [
+    {
+      "text": "A collection view that pairs each index and element of an underlying collection.",
+      "type": "text"
+    }
+  ],
+  "hierarchy": {
+    "paths": [
+      [
+        "doc://DoccIssue/documentation/DoccIssue"
+      ]
+    ]
+  },
+  "identifier": {
+    "interfaceLanguage": "swift",
+    "url": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection"
+  },
+  "kind": "symbol",
+  "metadata": {
+    "externalID": "s:9DoccIssue17IndexedCollectionV",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "struct"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "IndexedCollection"
+      }
+    ],
+    "modules": [
+      {
+        "name": "DoccIssue"
+      }
+    ],
+    "navigatorTitle": [
+      {
+        "kind": "identifier",
+        "text": "IndexedCollection"
+      }
+    ],
+    "role": "symbol",
+    "roleHeading": "Structure",
+    "symbolKind": "struct",
+    "title": "IndexedCollection"
+  },
+  "primaryContentSections": [
+    {
+      "declarations": [
+        {
+          "languages": [
+            "swift"
+          ],
+          "platforms": [
+            "macOS"
+          ],
+          "tokens": [
+            {
+              "kind": "attribute",
+              "text": "nonisolated"
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "keyword",
+              "text": "struct"
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "identifier",
+              "text": "IndexedCollection"
+            },
+            {
+              "kind": "text",
+              "text": "<"
+            },
+            {
+              "kind": "genericParameter",
+              "text": "Base"
+            },
+            {
+              "kind": "text",
+              "text": "> "
+            },
+            {
+              "kind": "keyword",
+              "text": "where"
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "typeIdentifier",
+              "text": "Base"
+            },
+            {
+              "kind": "text",
+              "text": " : "
+            },
+            {
+              "kind": "typeIdentifier",
+              "preciseIdentifier": "s:Sl",
+              "text": "Collection"
+            }
+          ]
+        }
+      ],
+      "kind": "declarations"
+    },
+    {
+      "content": [
+        {
+          "anchor": "overview",
+          "level": 2,
+          "text": "Overview",
+          "type": "heading"
+        },
+        {
+          "inlineContent": [
+            {
+              "text": "To create an instance of ",
+              "type": "text"
+            },
+            {
+              "code": "IndexedCollection",
+              "type": "codeVoice"
+            },
+            {
+              "text": ", call ",
+              "type": "text"
+            },
+            {
+              "code": "indexed()",
+              "type": "codeVoice"
+            },
+            {
+              "text": " on a collection.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "kind": "content"
+    }
+  ],
+  "references": {
+    "doc://DoccIssue/SK": {
+      "identifier": "doc://DoccIssue/SK",
+      "title": "Swift.BidirectionalCollection",
+      "type": "unresolvable"
+    },
+    "doc://DoccIssue/ST": {
+      "identifier": "doc://DoccIssue/ST",
+      "title": "Swift.Sequence",
+      "type": "unresolvable"
+    },
+    "doc://DoccIssue/Sk": {
+      "identifier": "doc://DoccIssue/Sk",
+      "title": "Swift.RandomAccessCollection",
+      "type": "unresolvable"
+    },
+    "doc://DoccIssue/Sl": {
+      "identifier": "doc://DoccIssue/Sl",
+      "title": "Swift.Collection",
+      "type": "unresolvable"
+    },
+    "doc://DoccIssue/documentation/DoccIssue": {
+      "abstract": [
+        {
+          "text": "Repository to test issues found with swift-docc-plugin.",
+          "type": "text"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue",
+      "kind": "symbol",
+      "role": "collection",
+      "title": "DoccIssue",
+      "type": "topic",
+      "url": "/documentation/doccissue"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection": {
+      "abstract": [
+        {
+          "text": "A collection view that pairs each index and element of an underlying collection.",
+          "type": "text"
+        }
+      ],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "struct"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "IndexedCollection"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection",
+      "kind": "symbol",
+      "navigatorTitle": [
+        {
+          "kind": "identifier",
+          "text": "IndexedCollection"
+        }
+      ],
+      "role": "symbol",
+      "title": "IndexedCollection",
+      "type": "topic",
+      "url": "/documentation/doccissue/indexedcollection"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/BidirectionalCollection-Implementations": {
+      "abstract": [],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/BidirectionalCollection-Implementations",
+      "kind": "article",
+      "role": "collectionGroup",
+      "title": "BidirectionalCollection Implementations",
+      "type": "topic",
+      "url": "/documentation/doccissue/indexedcollection/bidirectionalcollection-implementations"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Collection-Implementations": {
+      "abstract": [],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Collection-Implementations",
+      "kind": "article",
+      "role": "collectionGroup",
+      "title": "Collection Implementations",
+      "type": "topic",
+      "url": "/documentation/doccissue/indexedcollection/collection-implementations"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Element": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "typealias"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "Element"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Element",
+      "kind": "symbol",
+      "navigatorTitle": [
+        {
+          "kind": "identifier",
+          "text": "Element"
+        }
+      ],
+      "role": "symbol",
+      "title": "IndexedCollection.Element",
+      "type": "topic",
+      "url": "/documentation/doccissue/indexedcollection/element"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Sequence-Implementations": {
+      "abstract": [],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Sequence-Implementations",
+      "kind": "article",
+      "role": "collectionGroup",
+      "title": "Sequence Implementations",
+      "type": "topic",
+      "url": "/documentation/doccissue/indexedcollection/sequence-implementations"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/endIndex": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "var"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "endIndex"
+        },
+        {
+          "kind": "text",
+          "text": ": "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Base"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sl5IndexQa",
+          "text": "Index"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/endIndex",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "endIndex",
+      "type": "topic",
+      "url": "/documentation/doccissue/indexedcollection/endindex"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/index(after:)": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "index"
+        },
+        {
+          "kind": "text",
+          "text": "("
+        },
+        {
+          "kind": "externalParam",
+          "text": "after"
+        },
+        {
+          "kind": "text",
+          "text": ": "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Base"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sl5IndexQa",
+          "text": "Index"
+        },
+        {
+          "kind": "text",
+          "text": ") -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Base"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sl5IndexQa",
+          "text": "Index"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/index(after:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "index(after:)",
+      "type": "topic",
+      "url": "/documentation/doccissue/indexedcollection/index(after:)"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/startIndex": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "var"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "startIndex"
+        },
+        {
+          "kind": "text",
+          "text": ": "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Base"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sl5IndexQa",
+          "text": "Index"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/startIndex",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "startIndex",
+      "type": "topic",
+      "url": "/documentation/doccissue/indexedcollection/startindex"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/subscript(_:)": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "subscript"
+        },
+        {
+          "kind": "text",
+          "text": "("
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Base"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sl5IndexQa",
+          "text": "Index"
+        },
+        {
+          "kind": "text",
+          "text": ") -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV",
+          "text": "IndexedCollection"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Base"
+        },
+        {
+          "kind": "text",
+          "text": ">."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV7Elementa",
+          "text": "Element"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/subscript(_:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "subscript(_:)",
+      "type": "topic",
+      "url": "/documentation/doccissue/indexedcollection/subscript(_:)"
+    },
+    "doc://DoccIssue/s8CopyableP": {
+      "identifier": "doc://DoccIssue/s8CopyableP",
+      "title": "Swift.Copyable",
+      "type": "unresolvable"
+    },
+    "doc://DoccIssue/s9EscapableP": {
+      "identifier": "doc://DoccIssue/s9EscapableP",
+      "title": "Swift.Escapable",
+      "type": "unresolvable"
+    }
+  },
+  "relationshipsSections": [
+    {
+      "identifiers": [
+        "doc://DoccIssue/SK",
+        "doc://DoccIssue/Sl",
+        "doc://DoccIssue/s8CopyableP",
+        "doc://DoccIssue/s9EscapableP",
+        "doc://DoccIssue/Sk",
+        "doc://DoccIssue/ST"
+      ],
+      "kind": "relationships",
+      "title": "Conforms To",
+      "type": "conformsTo"
+    }
+  ],
+  "schemaVersion": {
+    "major": 0,
+    "minor": 3,
+    "patch": 0
+  },
+  "sections": [],
+  "topicSections": [
+    {
+      "anchor": "Instance-Properties",
+      "generated": true,
+      "identifiers": [
+        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/endIndex",
+        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/startIndex"
+      ],
+      "title": "Instance Properties"
+    },
+    {
+      "anchor": "Instance-Methods",
+      "generated": true,
+      "identifiers": [
+        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/index(after:)"
+      ],
+      "title": "Instance Methods"
+    },
+    {
+      "anchor": "Subscripts",
+      "generated": true,
+      "identifiers": [
+        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/subscript(_:)"
+      ],
+      "title": "Subscripts"
+    },
+    {
+      "anchor": "Type-Aliases",
+      "generated": true,
+      "identifiers": [
+        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Element"
+      ],
+      "title": "Type Aliases"
+    },
+    {
+      "anchor": "Default-Implementations",
+      "generated": true,
+      "identifiers": [
+        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/BidirectionalCollection-Implementations",
+        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/BidirectionalCollection-Implementations",
+        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Collection-Implementations",
+        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Collection-Implementations",
+        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Sequence-Implementations"
+      ],
+      "title": "Default Implementations"
+    }
+  ],
+  "variants": [
+    {
+      "paths": [
+        "/documentation/doccissue/indexedcollection"
+      ],
+      "traits": [
+        {
+          "interfaceLanguage": "swift"
+        }
+      ]
+    }
+  ]
+}

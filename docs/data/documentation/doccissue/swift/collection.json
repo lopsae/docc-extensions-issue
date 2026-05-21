@@ -1,0 +1,209 @@
+{
+  "hierarchy": {
+    "paths": [
+      [
+        "doc://DoccIssue/documentation/DoccIssue",
+        "doc://DoccIssue/documentation/DoccIssue/Swift"
+      ]
+    ]
+  },
+  "identifier": {
+    "interfaceLanguage": "swift",
+    "url": "doc://DoccIssue/documentation/DoccIssue/Swift/Collection"
+  },
+  "kind": "symbol",
+  "metadata": {
+    "extendedModule": "Swift",
+    "externalID": "s:e:s:Sl9DoccIssueE7indexedAA17IndexedCollectionVyxGyF",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "extension"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "preciseIdentifier": "s:Sl",
+        "text": "Collection"
+      }
+    ],
+    "modules": [
+      {
+        "name": "DoccIssue",
+        "relatedModules": [
+          "Swift"
+        ]
+      }
+    ],
+    "navigatorTitle": [
+      {
+        "kind": "identifier",
+        "text": "Collection"
+      }
+    ],
+    "role": "symbol",
+    "roleHeading": "Extended Protocol",
+    "symbolKind": "extension",
+    "title": "Collection"
+  },
+  "primaryContentSections": [
+    {
+      "declarations": [
+        {
+          "languages": [
+            "swift"
+          ],
+          "platforms": [
+            "macOS"
+          ],
+          "tokens": [
+            {
+              "kind": "keyword",
+              "text": "extension"
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "typeIdentifier",
+              "preciseIdentifier": "s:Sl",
+              "text": "Collection"
+            }
+          ]
+        }
+      ],
+      "kind": "declarations"
+    }
+  ],
+  "references": {
+    "doc://DoccIssue/documentation/DoccIssue": {
+      "abstract": [
+        {
+          "text": "Repository to test issues found with swift-docc-plugin.",
+          "type": "text"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue",
+      "kind": "symbol",
+      "role": "collection",
+      "title": "DoccIssue",
+      "type": "topic",
+      "url": "/documentation/doccissue"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/Swift": {
+      "abstract": [],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/Swift",
+      "kind": "symbol",
+      "role": "collection",
+      "title": "Swift",
+      "type": "topic",
+      "url": "/documentation/doccissue/swift"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/Swift/Collection": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "extension"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "preciseIdentifier": "s:Sl",
+          "text": "Collection"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/Swift/Collection",
+      "kind": "symbol",
+      "navigatorTitle": [
+        {
+          "kind": "identifier",
+          "text": "Collection"
+        }
+      ],
+      "role": "symbol",
+      "title": "Collection",
+      "type": "topic",
+      "url": "/documentation/doccissue/swift/collection"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/Swift/Collection/indexed()": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "indexed"
+        },
+        {
+          "kind": "text",
+          "text": "() -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:9DoccIssue17IndexedCollectionV",
+          "text": "IndexedCollection"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": ">"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/Swift/Collection/indexed()",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "indexed()",
+      "type": "topic",
+      "url": "/documentation/doccissue/swift/collection/indexed()"
+    }
+  },
+  "schemaVersion": {
+    "major": 0,
+    "minor": 3,
+    "patch": 0
+  },
+  "sections": [],
+  "topicSections": [
+    {
+      "anchor": "Instance-Methods",
+      "generated": true,
+      "identifiers": [
+        "doc://DoccIssue/documentation/DoccIssue/Swift/Collection/indexed()"
+      ],
+      "title": "Instance Methods"
+    }
+  ],
+  "variants": [
+    {
+      "paths": [
+        "/documentation/doccissue/swift/collection"
+      ],
+      "traits": [
+        {
+          "interfaceLanguage": "swift"
+        }
+      ]
+    }
+  ]
+}

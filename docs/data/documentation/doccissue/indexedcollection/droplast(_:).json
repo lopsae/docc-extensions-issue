@@ -1,0 +1,273 @@
+{
+  "abstract": [
+    {
+      "text": "Inherited from ",
+      "type": "text"
+    },
+    {
+      "code": "Collection.dropLast(_:)",
+      "type": "codeVoice"
+    },
+    {
+      "text": ".",
+      "type": "text"
+    }
+  ],
+  "hierarchy": {
+    "paths": [
+      [
+        "doc://DoccIssue/documentation/DoccIssue",
+        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection"
+      ]
+    ]
+  },
+  "identifier": {
+    "interfaceLanguage": "swift",
+    "url": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/dropLast(_:)"
+  },
+  "kind": "symbol",
+  "metadata": {
+    "extendedModule": "Swift",
+    "externalID": "s:SlsE8dropLasty11SubSequenceQzSiF::SYNTHESIZED::s:9DoccIssue17IndexedCollectionV",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "func"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "dropLast"
+      },
+      {
+        "kind": "text",
+        "text": "("
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:Si",
+        "text": "Int"
+      },
+      {
+        "kind": "text",
+        "text": ") -> "
+      },
+      {
+        "kind": "typeIdentifier",
+        "text": "Self"
+      },
+      {
+        "kind": "text",
+        "text": "."
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:Sl11SubSequenceQa",
+        "text": "SubSequence"
+      }
+    ],
+    "modules": [
+      {
+        "name": "DoccIssue",
+        "relatedModules": [
+          "Swift"
+        ]
+      }
+    ],
+    "role": "symbol",
+    "roleHeading": "Instance Method",
+    "symbolKind": "method",
+    "title": "dropLast(_:)"
+  },
+  "primaryContentSections": [
+    {
+      "declarations": [
+        {
+          "languages": [
+            "swift"
+          ],
+          "platforms": [
+            "macOS"
+          ],
+          "tokens": [
+            {
+              "kind": "keyword",
+              "text": "func"
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "identifier",
+              "text": "dropLast"
+            },
+            {
+              "kind": "text",
+              "text": "("
+            },
+            {
+              "kind": "externalParam",
+              "text": "_"
+            },
+            {
+              "kind": "text",
+              "text": " "
+            },
+            {
+              "kind": "internalParam",
+              "text": "k"
+            },
+            {
+              "kind": "text",
+              "text": ": "
+            },
+            {
+              "kind": "typeIdentifier",
+              "preciseIdentifier": "s:Si",
+              "text": "Int"
+            },
+            {
+              "kind": "text",
+              "text": " = 1) -> "
+            },
+            {
+              "kind": "typeIdentifier",
+              "text": "Self"
+            },
+            {
+              "kind": "text",
+              "text": "."
+            },
+            {
+              "kind": "typeIdentifier",
+              "preciseIdentifier": "s:Sl11SubSequenceQa",
+              "text": "SubSequence"
+            }
+          ]
+        }
+      ],
+      "kind": "declarations"
+    }
+  ],
+  "references": {
+    "doc://DoccIssue/documentation/DoccIssue": {
+      "abstract": [
+        {
+          "text": "Repository to test issues found with swift-docc-plugin.",
+          "type": "text"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue",
+      "kind": "symbol",
+      "role": "collection",
+      "title": "DoccIssue",
+      "type": "topic",
+      "url": "/documentation/doccissue"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection": {
+      "abstract": [
+        {
+          "text": "A collection view that pairs each index and element of an underlying collection.",
+          "type": "text"
+        }
+      ],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "struct"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "IndexedCollection"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection",
+      "kind": "symbol",
+      "navigatorTitle": [
+        {
+          "kind": "identifier",
+          "text": "IndexedCollection"
+        }
+      ],
+      "role": "symbol",
+      "title": "IndexedCollection",
+      "type": "topic",
+      "url": "/documentation/doccissue/indexedcollection"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/dropLast(_:)": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "func"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "dropLast"
+        },
+        {
+          "kind": "text",
+          "text": "("
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Si",
+          "text": "Int"
+        },
+        {
+          "kind": "text",
+          "text": ") -> "
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": "."
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:Sl11SubSequenceQa",
+          "text": "SubSequence"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/dropLast(_:)",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "dropLast(_:)",
+      "type": "topic",
+      "url": "/documentation/doccissue/indexedcollection/droplast(_:)"
+    }
+  },
+  "schemaVersion": {
+    "major": 0,
+    "minor": 3,
+    "patch": 0
+  },
+  "sections": [],
+  "variants": [
+    {
+      "paths": [
+        "/documentation/doccissue/indexedcollection/droplast(_:)"
+      ],
+      "traits": [
+        {
+          "interfaceLanguage": "swift"
+        }
+      ]
+    }
+  ]
+}

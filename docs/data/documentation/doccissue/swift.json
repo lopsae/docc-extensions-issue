@@ -1,0 +1,171 @@
+{
+  "hierarchy": {
+    "paths": [
+      [
+        "doc://DoccIssue/documentation/DoccIssue"
+      ]
+    ]
+  },
+  "identifier": {
+    "interfaceLanguage": "swift",
+    "url": "doc://DoccIssue/documentation/DoccIssue/Swift"
+  },
+  "kind": "symbol",
+  "metadata": {
+    "externalID": "s:m:s:e:s:SK9DoccIssueE10clampIndexy0D0QzSgADF",
+    "modules": [
+      {
+        "name": "DoccIssue"
+      }
+    ],
+    "role": "collection",
+    "roleHeading": "Extended Module",
+    "symbolKind": "extension",
+    "title": "Swift"
+  },
+  "references": {
+    "doc://DoccIssue/documentation/DoccIssue": {
+      "abstract": [
+        {
+          "text": "Repository to test issues found with swift-docc-plugin.",
+          "type": "text"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue",
+      "kind": "symbol",
+      "role": "collection",
+      "title": "DoccIssue",
+      "type": "topic",
+      "url": "/documentation/doccissue"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/Swift": {
+      "abstract": [],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/Swift",
+      "kind": "symbol",
+      "role": "collection",
+      "title": "Swift",
+      "type": "topic",
+      "url": "/documentation/doccissue/swift"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "extension"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "preciseIdentifier": "s:SK",
+          "text": "BidirectionalCollection"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection",
+      "kind": "symbol",
+      "navigatorTitle": [
+        {
+          "kind": "identifier",
+          "text": "BidirectionalCollection"
+        }
+      ],
+      "role": "symbol",
+      "title": "BidirectionalCollection",
+      "type": "topic",
+      "url": "/documentation/doccissue/swift/bidirectionalcollection"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/Swift/Collection": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "extension"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "preciseIdentifier": "s:Sl",
+          "text": "Collection"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/Swift/Collection",
+      "kind": "symbol",
+      "navigatorTitle": [
+        {
+          "kind": "identifier",
+          "text": "Collection"
+        }
+      ],
+      "role": "symbol",
+      "title": "Collection",
+      "type": "topic",
+      "url": "/documentation/doccissue/swift/collection"
+    },
+    "doc://DoccIssue/documentation/DoccIssue/Swift/Comparable": {
+      "abstract": [],
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "extension"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "preciseIdentifier": "s:SL",
+          "text": "Comparable"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/Swift/Comparable",
+      "kind": "symbol",
+      "navigatorTitle": [
+        {
+          "kind": "identifier",
+          "text": "Comparable"
+        }
+      ],
+      "role": "symbol",
+      "title": "Comparable",
+      "type": "topic",
+      "url": "/documentation/doccissue/swift/comparable"
+    }
+  },
+  "schemaVersion": {
+    "major": 0,
+    "minor": 3,
+    "patch": 0
+  },
+  "sections": [],
+  "topicSections": [
+    {
+      "anchor": "Extended-Protocols",
+      "generated": true,
+      "identifiers": [
+        "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection",
+        "doc://DoccIssue/documentation/DoccIssue/Swift/Collection",
+        "doc://DoccIssue/documentation/DoccIssue/Swift/Comparable"
+      ],
+      "title": "Extended Protocols"
+    }
+  ],
+  "variants": [
+    {
+      "paths": [
+        "/documentation/doccissue/swift"
+      ],
+      "traits": [
+        {
+          "interfaceLanguage": "swift"
+        }
+      ]
+    }
+  ]
+}
