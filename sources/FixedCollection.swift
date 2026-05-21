@@ -1,9 +1,8 @@
 //
-//  DoccIssue
+//  DoccExtensionsIssue
 //
 
 
-nonisolated
 public struct FixedCollection: Collection {
 
     public typealias Index = Int

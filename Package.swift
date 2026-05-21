@@ -5,15 +5,15 @@ import PackageDescription
 
 
 let package = Package(
-    name: "DoccIssue",
+    name: "DoccExtensionsIssue",
     platforms: [
         .iOS(.v26),
         .macOS(.v26)
     ],
     products: [
         .library(
-            name: "DoccIssue",
-            targets: ["DoccIssue"]
+            name: "DoccExtensionsIssue",
+            targets: ["DoccExtensionsIssue"]
         ),
     ],
     dependencies: [
@@ -21,7 +21,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "DoccIssue",
+            name: "DoccExtensionsIssue",
             path: "sources",
         )
     ]
