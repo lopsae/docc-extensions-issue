@@ -84,6 +84,12 @@ However this will modify a lot of files, making the change hard to discern. The 
 
 
 
+### Removing ` .build`
+
+The issue still happens even if removing `.build` before rebuilding the documentation.
+
+
+
 ### Building documentation in Xcode
 
 Part of this issue can be also seen when running `Build Documentation` in Xcode:
