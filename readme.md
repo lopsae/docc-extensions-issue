@@ -62,6 +62,15 @@ members.
 
 
 
+`swift-docc-plugin` version
+---------------------------
+
+Testing of this issue was done using `swift-docc-plugin` at version `1.5.0`.
+
+Issue was reproduced on `main` (`647c708`) as of May 21th, 2026.
+
+
+
 Other Observations
 ------------------
 
