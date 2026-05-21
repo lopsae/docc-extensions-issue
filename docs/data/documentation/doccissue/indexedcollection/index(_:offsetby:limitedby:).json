@@ -5,7 +5,7 @@
       "type": "text"
     },
     {
-      "code": "RandomAccessCollection.index(_:offsetBy:limitedBy:)",
+      "code": "BidirectionalCollection.index(_:offsetBy:limitedBy:)",
       "type": "codeVoice"
     },
     {
@@ -28,7 +28,7 @@
   "kind": "symbol",
   "metadata": {
     "extendedModule": "Swift",
-    "externalID": "s:SksE5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtF::SYNTHESIZED::s:9DoccIssue17IndexedCollectionV",
+    "externalID": "s:SKsE5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtF::SYNTHESIZED::s:9DoccIssue17IndexedCollectionV",
     "fragments": [
       {
         "kind": "keyword",

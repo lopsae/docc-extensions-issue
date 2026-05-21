@@ -915,6 +915,82 @@
       "type": "topic",
       "url": "/documentation/doccissue/indexedcollection/index(of:)"
     },
+    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/indices": {
+      "abstract": [],
+      "conformance": {
+        "availabilityPrefix": [
+          {
+            "text": "Available when",
+            "type": "text"
+          }
+        ],
+        "conformancePrefix": [
+          {
+            "text": "Conforms when",
+            "type": "text"
+          }
+        ],
+        "constraints": [
+          {
+            "code": "Indices",
+            "type": "codeVoice"
+          },
+          {
+            "text": " is ",
+            "type": "text"
+          },
+          {
+            "code": "DefaultIndices<Self>",
+            "type": "codeVoice"
+          },
+          {
+            "text": ".",
+            "type": "text"
+          }
+        ]
+      },
+      "fragments": [
+        {
+          "kind": "keyword",
+          "text": "var"
+        },
+        {
+          "kind": "text",
+          "text": " "
+        },
+        {
+          "kind": "identifier",
+          "text": "indices"
+        },
+        {
+          "kind": "text",
+          "text": ": "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "s:SI",
+          "text": "DefaultIndices"
+        },
+        {
+          "kind": "text",
+          "text": "<"
+        },
+        {
+          "kind": "typeIdentifier",
+          "text": "Self"
+        },
+        {
+          "kind": "text",
+          "text": ">"
+        }
+      ],
+      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/indices",
+      "kind": "symbol",
+      "role": "symbol",
+      "title": "indices",
+      "type": "topic",
+      "url": "/documentation/doccissue/indexedcollection/indices"
+    },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/indices(of:)": {
       "abstract": [],
       "conformance": {
@@ -2464,6 +2540,7 @@
       "identifiers": [
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/count",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/first",
+        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/indices",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/isEmpty",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/underestimatedCount"
       ],

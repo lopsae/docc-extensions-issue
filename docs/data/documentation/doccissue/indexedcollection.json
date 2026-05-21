@@ -91,11 +91,6 @@
       "title": "Swift.Sequence",
       "type": "unresolvable"
     },
-    "doc://DoccIssue/Sk": {
-      "identifier": "doc://DoccIssue/Sk",
-      "title": "Swift.RandomAccessCollection",
-      "type": "unresolvable"
-    },
     "doc://DoccIssue/Sl": {
       "identifier": "doc://DoccIssue/Sl",
       "title": "Swift.Collection",
@@ -190,15 +185,6 @@
       "title": "IndexedCollection.Index",
       "type": "topic",
       "url": "/documentation/doccissue/indexedcollection/index"
-    },
-    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/RandomAccessCollection-Implementations": {
-      "abstract": [],
-      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/RandomAccessCollection-Implementations",
-      "kind": "article",
-      "role": "collectionGroup",
-      "title": "RandomAccessCollection Implementations",
-      "type": "topic",
-      "url": "/documentation/doccissue/indexedcollection/randomaccesscollection-implementations"
     },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Sequence-Implementations": {
       "abstract": [],
@@ -418,7 +404,6 @@
         "doc://DoccIssue/Sl",
         "doc://DoccIssue/s8CopyableP",
         "doc://DoccIssue/s9EscapableP",
-        "doc://DoccIssue/Sk",
         "doc://DoccIssue/ST"
       ],
       "kind": "relationships",
@@ -473,7 +458,6 @@
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/BidirectionalCollection-Implementations",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/BidirectionalCollection-Implementations",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Collection-Implementations",
-        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/RandomAccessCollection-Implementations",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/Sequence-Implementations"
       ],
       "title": "Default Implementations"
