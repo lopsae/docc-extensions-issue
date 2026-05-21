@@ -64,23 +64,9 @@
                     "type": "groupMarker"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/beforeendindex",
-                    "title": "var beforeEndIndex: Self.Index",
-                    "type": "property"
-                  },
-                  {
                     "path": "/documentation/doccissue/indexedcollection/finalindex",
                     "title": "var finalIndex: Self.Index",
                     "type": "property"
-                  },
-                  {
-                    "title": "Instance Methods",
-                    "type": "groupMarker"
-                  },
-                  {
-                    "path": "/documentation/doccissue/indexedcollection/clampindex(_:)",
-                    "title": "func clampIndex(Self.Index) -> Self.Index?",
-                    "type": "method"
                   }
                 ],
                 "path": "/documentation/doccissue/indexedcollection/bidirectionalcollection-implementations",
@@ -94,23 +80,9 @@
                     "type": "groupMarker"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/beforeendindex",
-                    "title": "var beforeEndIndex: Self.Index",
-                    "type": "property"
-                  },
-                  {
                     "path": "/documentation/doccissue/indexedcollection/finalindex",
                     "title": "var finalIndex: Self.Index",
                     "type": "property"
-                  },
-                  {
-                    "title": "Instance Methods",
-                    "type": "groupMarker"
-                  },
-                  {
-                    "path": "/documentation/doccissue/indexedcollection/clampindex(_:)",
-                    "title": "func clampIndex(Self.Index) -> Self.Index?",
-                    "type": "method"
                   }
                 ],
                 "path": "/documentation/doccissue/indexedcollection/bidirectionalcollection-implementations",
@@ -120,12 +92,156 @@
               {
                 "children": [
                   {
+                    "title": "Instance Properties",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/count",
+                    "title": "var count: Int",
+                    "type": "property"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/first",
+                    "title": "var first: Self.Element?",
+                    "type": "property"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/indices",
+                    "title": "var indices: DefaultIndices<Self>",
+                    "type": "property"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/isempty",
+                    "title": "var isEmpty: Bool",
+                    "type": "property"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/underestimatedcount",
+                    "title": "var underestimatedCount: Int",
+                    "type": "property"
+                  },
+                  {
                     "title": "Instance Methods",
                     "type": "groupMarker"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/indexed()",
-                    "title": "func indexed() -> IndexedCollection<Self>",
+                    "path": "/documentation/doccissue/indexedcollection/distance(from:to:)",
+                    "title": "func distance(from: Self.Index, to: Self.Index) -> Int",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/drop(while:)",
+                    "title": "func drop(while: (Self.Element) throws -> Bool) rethrows -> Self.SubSequence",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/dropfirst(_:)",
+                    "title": "func dropFirst(Int) -> Self.SubSequence",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/droplast(_:)",
+                    "title": "func dropLast(Int) -> Self.SubSequence",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/firstindex(where:)",
+                    "title": "func firstIndex(where: (Self.Element) throws -> Bool) rethrows -> Self.Index?",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/formindex(_:offsetby:)",
+                    "title": "func formIndex(inout Self.Index, offsetBy: Int)",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/formindex(_:offsetby:limitedby:)",
+                    "title": "func formIndex(inout Self.Index, offsetBy: Int, limitedBy: Self.Index) -> Bool",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/formindex(after:)",
+                    "title": "func formIndex(after: inout Self.Index)",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/index(_:offsetby:)",
+                    "title": "func index(Self.Index, offsetBy: Int) -> Self.Index",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/index(_:offsetby:limitedby:)",
+                    "title": "func index(Self.Index, offsetBy: Int, limitedBy: Self.Index) -> Self.Index?",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/indices(where:)",
+                    "title": "func indices(where: (Self.Element) throws -> Bool) rethrows -> RangeSet<Self.Index>",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/makeiterator()",
+                    "title": "func makeIterator() -> IndexingIterator<Self>",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/map(_:)-132hu",
+                    "title": "func map<T, E>((Self.Element) throws(E) -> T) throws(E) -> [T]",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/prefix(_:)",
+                    "title": "func prefix(Int) -> Self.SubSequence",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/prefix(through:)",
+                    "title": "func prefix(through: Self.Index) -> Self.SubSequence",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/prefix(upto:)",
+                    "title": "func prefix(upTo: Self.Index) -> Self.SubSequence",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/prefix(while:)",
+                    "title": "func prefix(while: (Self.Element) throws -> Bool) rethrows -> Self.SubSequence",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/randomelement()",
+                    "title": "func randomElement() -> Self.Element?",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/randomelement(using:)",
+                    "title": "func randomElement<T>(using: inout T) -> Self.Element?",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/removingsubranges(_:)",
+                    "title": "func removingSubranges(RangeSet<Self.Index>) -> DiscontiguousSlice<Self>",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/split(maxsplits:omittingemptysubsequences:whereseparator:)",
+                    "title": "func split(maxSplits: Int, omittingEmptySubsequences: Bool, whereSeparator: (Self.Element) throws -> Bool) rethrows -> [Self.SubSequence]",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/suffix(_:)",
+                    "title": "func suffix(Int) -> Self.SubSequence",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/suffix(from:)",
+                    "title": "func suffix(from: Self.Index) -> Self.SubSequence",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/trimmingprefix(while:)",
+                    "title": "func trimmingPrefix(while: (Self.Element) throws -> Bool) rethrows -> Self.SubSequence",
                     "type": "method"
                   }
                 ],
@@ -136,12 +252,156 @@
               {
                 "children": [
                   {
+                    "title": "Instance Properties",
+                    "type": "groupMarker"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/count",
+                    "title": "var count: Int",
+                    "type": "property"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/first",
+                    "title": "var first: Self.Element?",
+                    "type": "property"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/indices",
+                    "title": "var indices: DefaultIndices<Self>",
+                    "type": "property"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/isempty",
+                    "title": "var isEmpty: Bool",
+                    "type": "property"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/underestimatedcount",
+                    "title": "var underestimatedCount: Int",
+                    "type": "property"
+                  },
+                  {
                     "title": "Instance Methods",
                     "type": "groupMarker"
                   },
                   {
-                    "path": "/documentation/doccissue/indexedcollection/indexed()",
-                    "title": "func indexed() -> IndexedCollection<Self>",
+                    "path": "/documentation/doccissue/indexedcollection/distance(from:to:)",
+                    "title": "func distance(from: Self.Index, to: Self.Index) -> Int",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/drop(while:)",
+                    "title": "func drop(while: (Self.Element) throws -> Bool) rethrows -> Self.SubSequence",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/dropfirst(_:)",
+                    "title": "func dropFirst(Int) -> Self.SubSequence",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/droplast(_:)",
+                    "title": "func dropLast(Int) -> Self.SubSequence",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/firstindex(where:)",
+                    "title": "func firstIndex(where: (Self.Element) throws -> Bool) rethrows -> Self.Index?",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/formindex(_:offsetby:)",
+                    "title": "func formIndex(inout Self.Index, offsetBy: Int)",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/formindex(_:offsetby:limitedby:)",
+                    "title": "func formIndex(inout Self.Index, offsetBy: Int, limitedBy: Self.Index) -> Bool",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/formindex(after:)",
+                    "title": "func formIndex(after: inout Self.Index)",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/index(_:offsetby:)",
+                    "title": "func index(Self.Index, offsetBy: Int) -> Self.Index",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/index(_:offsetby:limitedby:)",
+                    "title": "func index(Self.Index, offsetBy: Int, limitedBy: Self.Index) -> Self.Index?",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/indices(where:)",
+                    "title": "func indices(where: (Self.Element) throws -> Bool) rethrows -> RangeSet<Self.Index>",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/makeiterator()",
+                    "title": "func makeIterator() -> IndexingIterator<Self>",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/map(_:)-132hu",
+                    "title": "func map<T, E>((Self.Element) throws(E) -> T) throws(E) -> [T]",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/prefix(_:)",
+                    "title": "func prefix(Int) -> Self.SubSequence",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/prefix(through:)",
+                    "title": "func prefix(through: Self.Index) -> Self.SubSequence",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/prefix(upto:)",
+                    "title": "func prefix(upTo: Self.Index) -> Self.SubSequence",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/prefix(while:)",
+                    "title": "func prefix(while: (Self.Element) throws -> Bool) rethrows -> Self.SubSequence",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/randomelement()",
+                    "title": "func randomElement() -> Self.Element?",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/randomelement(using:)",
+                    "title": "func randomElement<T>(using: inout T) -> Self.Element?",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/removingsubranges(_:)",
+                    "title": "func removingSubranges(RangeSet<Self.Index>) -> DiscontiguousSlice<Self>",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/split(maxsplits:omittingemptysubsequences:whereseparator:)",
+                    "title": "func split(maxSplits: Int, omittingEmptySubsequences: Bool, whereSeparator: (Self.Element) throws -> Bool) rethrows -> [Self.SubSequence]",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/suffix(_:)",
+                    "title": "func suffix(Int) -> Self.SubSequence",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/suffix(from:)",
+                    "title": "func suffix(from: Self.Index) -> Self.SubSequence",
+                    "type": "method"
+                  },
+                  {
+                    "path": "/documentation/doccissue/indexedcollection/trimmingprefix(while:)",
+                    "title": "func trimmingPrefix(while: (Self.Element) throws -> Bool) rethrows -> Self.SubSequence",
                     "type": "method"
                   }
                 ],
@@ -307,23 +567,9 @@
                     "type": "groupMarker"
                   },
                   {
-                    "path": "/documentation/doccissue/swift/bidirectionalcollection/beforeendindex",
-                    "title": "var beforeEndIndex: Self.Index",
-                    "type": "property"
-                  },
-                  {
                     "path": "/documentation/doccissue/swift/bidirectionalcollection/finalindex",
                     "title": "var finalIndex: Self.Index",
                     "type": "property"
-                  },
-                  {
-                    "title": "Instance Methods",
-                    "type": "groupMarker"
-                  },
-                  {
-                    "path": "/documentation/doccissue/swift/bidirectionalcollection/clampindex(_:)",
-                    "title": "func clampIndex(Self.Index) -> Self.Index?",
-                    "type": "method"
                   }
                 ],
                 "path": "/documentation/doccissue/swift/bidirectionalcollection",
@@ -344,32 +590,6 @@
                 ],
                 "path": "/documentation/doccissue/swift/collection",
                 "title": "Collection",
-                "type": "extension"
-              },
-              {
-                "children": [
-                  {
-                    "title": "Instance Methods",
-                    "type": "groupMarker"
-                  },
-                  {
-                    "path": "/documentation/doccissue/swift/comparable/clamped(to:)-6uqhk",
-                    "title": "func clamped(to: PartialRangeFrom<Self>) -> Self",
-                    "type": "method"
-                  },
-                  {
-                    "path": "/documentation/doccissue/swift/comparable/clamped(to:)-7hura",
-                    "title": "func clamped(to: PartialRangeThrough<Self>) -> Self",
-                    "type": "method"
-                  },
-                  {
-                    "path": "/documentation/doccissue/swift/comparable/clamped(to:)-9cv0e",
-                    "title": "func clamped(to: ClosedRange<Self>) -> Self",
-                    "type": "method"
-                  }
-                ],
-                "path": "/documentation/doccissue/swift/comparable",
-                "title": "Comparable",
                 "type": "extension"
               }
             ],

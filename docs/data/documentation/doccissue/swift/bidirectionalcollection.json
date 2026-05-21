@@ -14,7 +14,7 @@
   "kind": "symbol",
   "metadata": {
     "extendedModule": "Swift",
-    "externalID": "s:e:s:SK9DoccIssueE10clampIndexy0D0QzSgADF",
+    "externalID": "s:e:s:SK9DoccIssueE10finalIndex0D0Qzvp",
     "fragments": [
       {
         "kind": "keyword",
@@ -133,108 +133,6 @@
       "type": "topic",
       "url": "/documentation/doccissue/swift/bidirectionalcollection"
     },
-    "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection/beforeEndIndex": {
-      "abstract": [],
-      "deprecated": true,
-      "fragments": [
-        {
-          "kind": "keyword",
-          "text": "var"
-        },
-        {
-          "kind": "text",
-          "text": " "
-        },
-        {
-          "kind": "identifier",
-          "text": "beforeEndIndex"
-        },
-        {
-          "kind": "text",
-          "text": ": "
-        },
-        {
-          "kind": "typeIdentifier",
-          "text": "Self"
-        },
-        {
-          "kind": "text",
-          "text": "."
-        },
-        {
-          "kind": "typeIdentifier",
-          "preciseIdentifier": "s:Sl5IndexQa",
-          "text": "Index"
-        }
-      ],
-      "identifier": "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection/beforeEndIndex",
-      "kind": "symbol",
-      "role": "symbol",
-      "title": "beforeEndIndex",
-      "type": "topic",
-      "url": "/documentation/doccissue/swift/bidirectionalcollection/beforeendindex"
-    },
-    "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection/clampIndex(_:)": {
-      "abstract": [],
-      "fragments": [
-        {
-          "kind": "keyword",
-          "text": "func"
-        },
-        {
-          "kind": "text",
-          "text": " "
-        },
-        {
-          "kind": "identifier",
-          "text": "clampIndex"
-        },
-        {
-          "kind": "text",
-          "text": "("
-        },
-        {
-          "kind": "typeIdentifier",
-          "text": "Self"
-        },
-        {
-          "kind": "text",
-          "text": "."
-        },
-        {
-          "kind": "typeIdentifier",
-          "preciseIdentifier": "s:Sl5IndexQa",
-          "text": "Index"
-        },
-        {
-          "kind": "text",
-          "text": ") -> "
-        },
-        {
-          "kind": "typeIdentifier",
-          "text": "Self"
-        },
-        {
-          "kind": "text",
-          "text": "."
-        },
-        {
-          "kind": "typeIdentifier",
-          "preciseIdentifier": "s:Sl5IndexQa",
-          "text": "Index"
-        },
-        {
-          "kind": "text",
-          "text": "?"
-        }
-      ],
-      "identifier": "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection/clampIndex(_:)",
-      "kind": "symbol",
-      "role": "symbol",
-      "title": "clampIndex(_:)",
-      "type": "topic",
-      "url": "/documentation/doccissue/swift/bidirectionalcollection/clampindex(_:)"
-    },
     "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection/finalIndex": {
       "abstract": [],
       "fragments": [
@@ -287,18 +185,9 @@
       "anchor": "Instance-Properties",
       "generated": true,
       "identifiers": [
-        "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection/beforeEndIndex",
         "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection/finalIndex"
       ],
       "title": "Instance Properties"
-    },
-    {
-      "anchor": "Instance-Methods",
-      "generated": true,
-      "identifiers": [
-        "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection/clampIndex(_:)"
-      ],
-      "title": "Instance Methods"
     }
   ],
   "variants": [

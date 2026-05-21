@@ -71,108 +71,6 @@
       "type": "topic",
       "url": "/documentation/doccissue/indexedcollection"
     },
-    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/beforeEndIndex": {
-      "abstract": [],
-      "deprecated": true,
-      "fragments": [
-        {
-          "kind": "keyword",
-          "text": "var"
-        },
-        {
-          "kind": "text",
-          "text": " "
-        },
-        {
-          "kind": "identifier",
-          "text": "beforeEndIndex"
-        },
-        {
-          "kind": "text",
-          "text": ": "
-        },
-        {
-          "kind": "typeIdentifier",
-          "text": "Self"
-        },
-        {
-          "kind": "text",
-          "text": "."
-        },
-        {
-          "kind": "typeIdentifier",
-          "preciseIdentifier": "s:Sl5IndexQa",
-          "text": "Index"
-        }
-      ],
-      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/beforeEndIndex",
-      "kind": "symbol",
-      "role": "symbol",
-      "title": "beforeEndIndex",
-      "type": "topic",
-      "url": "/documentation/doccissue/indexedcollection/beforeendindex"
-    },
-    "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/clampIndex(_:)": {
-      "abstract": [],
-      "fragments": [
-        {
-          "kind": "keyword",
-          "text": "func"
-        },
-        {
-          "kind": "text",
-          "text": " "
-        },
-        {
-          "kind": "identifier",
-          "text": "clampIndex"
-        },
-        {
-          "kind": "text",
-          "text": "("
-        },
-        {
-          "kind": "typeIdentifier",
-          "text": "Self"
-        },
-        {
-          "kind": "text",
-          "text": "."
-        },
-        {
-          "kind": "typeIdentifier",
-          "preciseIdentifier": "s:Sl5IndexQa",
-          "text": "Index"
-        },
-        {
-          "kind": "text",
-          "text": ") -> "
-        },
-        {
-          "kind": "typeIdentifier",
-          "text": "Self"
-        },
-        {
-          "kind": "text",
-          "text": "."
-        },
-        {
-          "kind": "typeIdentifier",
-          "preciseIdentifier": "s:Sl5IndexQa",
-          "text": "Index"
-        },
-        {
-          "kind": "text",
-          "text": "?"
-        }
-      ],
-      "identifier": "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/clampIndex(_:)",
-      "kind": "symbol",
-      "role": "symbol",
-      "title": "clampIndex(_:)",
-      "type": "topic",
-      "url": "/documentation/doccissue/indexedcollection/clampindex(_:)"
-    },
     "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/finalIndex": {
       "abstract": [],
       "fragments": [
@@ -225,18 +123,9 @@
       "anchor": "Instance-Properties",
       "generated": true,
       "identifiers": [
-        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/beforeEndIndex",
         "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/finalIndex"
       ],
       "title": "Instance Properties"
-    },
-    {
-      "anchor": "Instance-Methods",
-      "generated": true,
-      "identifiers": [
-        "doc://DoccIssue/documentation/DoccIssue/IndexedCollection/clampIndex(_:)"
-      ],
-      "title": "Instance Methods"
     }
   ],
   "variants": [

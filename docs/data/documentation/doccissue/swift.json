@@ -12,7 +12,7 @@
   },
   "kind": "symbol",
   "metadata": {
-    "externalID": "s:m:s:e:s:SK9DoccIssueE10clampIndexy0D0QzSgADF",
+    "externalID": "s:m:s:e:s:SK9DoccIssueE10finalIndex0D0Qzvp",
     "modules": [
       {
         "name": "DoccIssue"
@@ -106,36 +106,6 @@
       "title": "Collection",
       "type": "topic",
       "url": "/documentation/doccissue/swift/collection"
-    },
-    "doc://DoccIssue/documentation/DoccIssue/Swift/Comparable": {
-      "abstract": [],
-      "fragments": [
-        {
-          "kind": "keyword",
-          "text": "extension"
-        },
-        {
-          "kind": "text",
-          "text": " "
-        },
-        {
-          "kind": "identifier",
-          "preciseIdentifier": "s:SL",
-          "text": "Comparable"
-        }
-      ],
-      "identifier": "doc://DoccIssue/documentation/DoccIssue/Swift/Comparable",
-      "kind": "symbol",
-      "navigatorTitle": [
-        {
-          "kind": "identifier",
-          "text": "Comparable"
-        }
-      ],
-      "role": "symbol",
-      "title": "Comparable",
-      "type": "topic",
-      "url": "/documentation/doccissue/swift/comparable"
     }
   },
   "schemaVersion": {
@@ -150,8 +120,7 @@
       "generated": true,
       "identifiers": [
         "doc://DoccIssue/documentation/DoccIssue/Swift/BidirectionalCollection",
-        "doc://DoccIssue/documentation/DoccIssue/Swift/Collection",
-        "doc://DoccIssue/documentation/DoccIssue/Swift/Comparable"
+        "doc://DoccIssue/documentation/DoccIssue/Swift/Collection"
       ],
       "title": "Extended Protocols"
     }
