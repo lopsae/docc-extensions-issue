@@ -71,6 +71,13 @@ Issue was reproduced on `main` (`647c708`) as of May 21th, 2026.
 
 
 
+GitHub Issue
+------------
+
+This issue has been filed to [`swift-docc-plugin` issue 125](https://github.com/swiftlang/swift-docc-plugin/issues/125).
+
+
+
 Other Observations
 ------------------
 
